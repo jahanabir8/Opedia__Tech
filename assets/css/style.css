@@ -105,7 +105,7 @@
     padding: 198px 0;
 }
 
-.hero__section .hero__inner h1, .service__work__inner .item h1 span {
+h1 span{
     font-weight: 600;
     font-size: 60px;
     margin: 0;
@@ -115,8 +115,7 @@
     -webkit-text-fill-color: transparent;
     }
 
-
-.hero__section .hero__inner span.title__span {
+.hero__section .hero__inner span.title__span{
     font-weight: 400;
     font-size: 28px;
     line-height: 45px;
@@ -165,7 +164,7 @@
     width: 100%;
 }
 
-.hero__inner .giffy img {
+.giffy img {
     width: 100%;
 }
 
@@ -173,142 +172,284 @@
 /* =====hero section end here======== */
 
 
+
+
+
+
+/* ===================================
+    mission CSS Start here
+======================================*/
+
+
+.mission_section {
+    background-image: url('../../assets/images/business.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .quate {
+    margin-bottom: 30px;
+  }
+  .quate span{
+    background: linear-gradient(91.57deg, #FFFFFF 48.67%, #39C1DF 76.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    padding-left: 78px;
+  }
+  
+  .quate span::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 7px;
+    background-color: #fff;
+    height: 2px;
+    width: 70px;
+  }
+  
+  .mission_content_section .mission_content h2 {
+    font-size: 71px;
+    font-weight: 700;
+    color: #fff;
+  
+  }
+  
+  .swiper-slide.swiper-slide-visible.swiper-slide-prev {
+    opacity: 0;
+  }
+   
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 550px;
+    height: 550px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  
+  /* ===================================
+      mission CSS end here
+  ======================================*/
+
+
+  /* ===================================
+    service CSS end here
+======================================*/
+
+
+.service_header_left h2, .service_header_left h3 {
+    font-size: 64px;
+    font-weight: 600;
+  }
+   
+  .service_header_left h2 {
+    background:  linear-gradient(69.57deg, #0057FF 61.67%, #39C1DF 69.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    
+  }
+  
+  
+  .service_header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+  }
+  
+  
+  .service_item {
+    background: #FFFFFF;
+    box-shadow: 1px 4px 10px rgb(236 237 239 / 80%);
+    border-radius: 8px;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .service_item h2, h3 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .service_item h2 {
+    background: linear-gradient(91.57deg, #0057FF 48.67%, #39C1DF 76.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  
+  .quate.service_quate span::after {
+    background:#0057FF;
+  }
+  
+  .quate.service_quate span{
+    background: linear-gradient(91.57deg, #0057FF 48.67%, #39C1DF 76.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+   
+  
+  .service_item img {
+    width: 200px;
+    margin: auto;
+  }
+  
+  .swiper-slide:nth-child(1) .service_item img{
+    margin: 24px auto; 
+  }
+  
+  .service_section {
+    padding: 100px 0px 200px;
+  }
+  
+ 
+  
+  
+  /* ===================================
+      service CSS end here
+  ======================================*/
+
+
+
+
+
+
+
+
+
+
+
+
 /* =====service work section start here */
 
-.service__work__inner .item h1{
+/* .service__work__inner .item h1{
     font-weight: 600;
     font-size: 60px;
     margin: 0;
     line-height: 108px;
-    }
+    } */
 
   .service__work__section {
       margin: 200px 0;
     }
 
-/* =====service work section end here */
-
-
-/* =======responsive start here====== */
-@media screen and (max-width: 1399px) {
-    .hero__section {
-        padding: 150px 0;
+    /* owl carosol */
+    .owl-carousel .owl-stage-outer {
+        position: relative;
+        padding-top: 100px;
     }
 
-    .hero__section .hero__inner h1 {
-        font-weight: 600;
-        font-size: 52px;
-        line-height: 85px;
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        position: absolute;
+        top: 0;
+        margin: 0 0 70px 0;
+        display: block;
     }
 
-    .hero__section .hero__inner span.title__span {
-        font-size: 24px;
-        line-height: 43px;
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+        border: 1px solid #0057FF;
+        background:  transparent;
+        height: 66px;
+        width: 66px;
+        border-radius: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+
+    .owl-theme .owl-dots .owl-dot span {
+        height: 66px;
+        width: 66px;
+        margin: 5px 7px;
+        background: transparent;
+        display: block;
+        -webkit-backface-visibility: visible;
+        transition: opacity 200ms ease;
+        border-radius: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-image: linear-gradient(180deg, #0057FF, #fff) 1;
+        border-width: 1px;
+        border-style: solid;
+    }
+    /* owl carosol */
+
+/* =====service work section end here===== */
+
+
+/*===== client section start here===== */
+.client__inner .client__logo {
+    padding-top: 130px;
 }
 
-@media screen and (max-width: 1199px) {
-    .hero__section {
-        padding: 120px 0;
-    }
+/* .client__inner .client__logo .logo__section img {
+    width: 100%;
+} */
 
-    .hero__section .hero__inner h1 {
-        font-size: 43px;
-        line-height: 75px;
-    }
-
-    .hero__section .hero__inner span.title__span {
-        font-size: 20px;
-        line-height: 34px;
-    }
-
-    .hero__inner .title a {
-        font-size: 22px;
-        line-height: 26px;
-    }
+.client__inner .client__logo .logo__area {
+    margin-bottom: 130px;
 }
 
-@media screen and (max-width: 991PX) {
-    .hero__section {
-        padding: 110px 0;
-    }
+/* ========================== */
+ /* h1 {
+    font-weight: 600;
+    font-size: 60px;
+    margin: 0;
+} */
+/* ====================== */
 
-    .hero__section .hero__inner h1 {
-        font-size: 32px;
-        line-height: 50px;
-    }
 
-    .hero__section .hero__inner span.title__span {
-        font-size: 14px;
-        line-height: 26px;
-        margin: 23px 0 40px 0;
-    }
-
-    .hero__inner .title a {
-        line-height: 18px;
-    }
+.client__satisfic .satisfic__list__full {
+    margin-right: 20px;
 }
 
-@media screen and (max-width: 767PX) {
-    .hero__section {
-        padding: 88px 0;
-    }
-
-    .hero__section .hero__inner h1 {
-        font-size: 42px;
-        line-height: 60px;
-    }
-
-    .hero__section .hero__inner span.title__span {
-        font-size: 19px;
-        line-height: 30px;
-        margin: 23px 0 40px 0;
-    }
-
-    .hero__inner .giffy {
-        padding-top: 60px;
-    }
+.client__satisfic .giffy {
+    margin-left: 20px;
 }
 
-@media screen and (max-width: 575PX) {
-    .hero__section .hero__inner h1 {
-        font-size: 32px;
-        line-height: 46px;
-    }
-
-    .hero__section .hero__inner span.title__span {
-        font-size: 15px;
-        line-height: 28px;
-        margin: 23px 0 30px 0;
-    }
+.client__satisfic .satisfic__list {
+    padding-bottom: 30px;
 }
 
-@media screen and (max-width: 424PX) {
-    .hero__section .hero__inner h1 {
-        font-size: 28px;
-    }
-
-    .hero__section .hero__inner span.title__span {
-        font-size: 13px;
-        line-height: 24px;
-    }
+h1.number_in {
+    font-weight: 300 !important;
 }
 
-@media screen and (max-width: 374PX) {
-    .hero__section {
-        padding: 80px 0;
-    }
-    .hero__inner .title a {
-        font-size: 18px;
-    }
+.client__satisfic .satisfic__list:last-child{
+    padding-bottom: 0;
 }
 
-@media screen and (max-width: 320PX) {
-    .hero__section .hero__inner h1 {
-        font-size: 24px;
-        line-height: 37px;
-    }
+.client__satisfic .satisfic__list .list__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-
-/* =======responsive end here====== */
+.satisfic__list .list__text p {
+    font-weight: 300;
+    font-size: 21px;
+    text-align: justify;
+    margin: 0;
+}
+/*===== client section end here===== */

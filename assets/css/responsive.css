@@ -1,0 +1,266 @@
+/* =======responsive start here====== */
+@media screen and (min-width: 1400px) {
+    .mission_section {
+      padding: 160px 0px 160px 288px;
+    }
+  }
+
+@media screen and (max-width: 1399px) {
+    .hero__section {
+        padding: 150px 0;
+    }
+
+    h1, h1 span{
+        font-weight: 600;
+        font-size: 52px;
+        line-height: 85px;
+    }
+
+    .hero__section .hero__inner span.title__span {
+        font-size: 24px;
+        line-height: 43px;
+    }
+/* --- */
+    .mission_section {
+        padding: 100px 0px 100px 120px;
+      }
+
+      .service_item h2, h3 {
+        font-size: 40px;
+        font-weight: 700;
+      }
+/* --- */
+    .service__work__section {
+        margin: 150px 0;
+    }
+
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+        height: 50px;
+        width: 50px;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+
+    .hero__section {
+        padding: 120px 0;
+    }
+
+    h1, h1 span {
+        font-size: 43px;
+        line-height: 75px;
+    }
+
+    .hero__section .hero__inner span.title__span {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .hero__inner .title a {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    /* ---- */
+    .mission_content_section .mission_content h2 {
+        font-size: 60px;
+      }   
+      .mission_content_section {
+        padding-right: 120px;
+      }
+    
+    .service_section {
+        padding: 100px 0px 0px;
+      } 
+
+    .service_header_left h2, .service_header_left h3 {
+        font-size: 46px;
+      }
+    /* ---- */
+
+    .client__inner .client__logo {
+        padding-top: 100px;
+    }
+
+    .client__inner .client__logo .logo__area {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 991PX) {
+    .hero__section {
+        padding: 110px 0;
+    }
+
+    h1, h1 span {
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+    .hero__section .hero__inner span.title__span {
+        font-size: 14px;
+        line-height: 26px;
+        margin: 23px 0 40px 0;
+    }
+
+    .hero__inner .title a {
+        line-height: 18px;
+    }
+
+    /* ----- */
+    .mission_section {
+        padding: 100px 0px 100px 20px;
+    }
+    .mission_content_section .mission_content h2 {
+      font-size: 40px;
+    }
+    .mission_content_section {
+      padding-right: 10px;
+    }
+    /* ----- */
+
+    .service__work__section {
+        margin: 120px 0;
+    }
+
+    .client__inner .client__logo {
+        padding-top: 55px;
+    }
+
+    .client__satisfic .satisfic__list__full {
+        margin: 0 0 40px 0;
+    }
+
+    .client__satisfic .giffy {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 767PX) {
+    .hero__section {
+        padding: 88px 0;
+    }
+
+    h1, h1 span {
+        font-size: 42px;
+        line-height: 60px;
+    }
+
+    .hero__section .hero__inner span.title__span {
+        font-size: 19px;
+        line-height: 30px;
+        margin: 23px 0 40px 0;
+    }
+
+    .hero__inner .giffy {
+        padding-top: 60px;
+    }
+
+    /* ----- */
+    .service_item h2, h3 {
+        font-size: 26px;
+      }
+    /* ----- */
+
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+        height: 40px;
+        width: 40px;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        height: 40px;
+        width: 40px;
+    }
+
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin:0;
+    }
+
+    .owl-carousel .owl-stage-outer {
+        padding-top: 90px;
+    }
+}
+
+@media screen and (max-width: 575PX) {
+    h1, h1 span {
+        font-size: 32px;
+        line-height: 46px;
+    }
+
+    .hero__section .hero__inner span.title__span {
+        font-size: 15px;
+        line-height: 28px;
+        margin: 23px 0 30px 0;
+    }
+
+    /* ----- */
+    .mission_section {
+        padding: 100px 0px 100px 20px;
+    }
+    .mission_content_section .mission_content h2 {
+      font-size: 30px;
+    }
+    .mission_content_section {
+      padding-right: 10px;
+    }
+
+    .service_header_left h2, .service_header_left h3 {
+        font-size: 38px;
+      }
+    /* ----- */
+
+    .client__inner .client__logo .logo__area {
+        margin-bottom: 0;
+    }
+
+    .client__logo {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 424PX) {
+    h1, h1 span {
+        font-size: 28px;
+    }
+
+    .hero__section .hero__inner span.title__span {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .satisfic__list .list__text p {
+        font-weight: 300;
+        font-size: 18px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 374PX) {
+    .hero__section {
+        padding: 80px 0;
+    }
+    .hero__inner .title a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 320PX) {
+    h1, h1 span {
+        font-size: 24px;
+        line-height: 37px;
+    }
+}
+
+@media screen and (max-width: 423px) {
+    .service_header_left h2, .service_header_left h3 {
+      font-size: 23px;
+    }
+  }
+
+
+/* =======responsive end here====== */
