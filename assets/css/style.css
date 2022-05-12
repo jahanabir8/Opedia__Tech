@@ -124,7 +124,8 @@ h1 span{
 }
 
 
-.hero__inner .title a {
+.hero__inner .title a,
+ .service__work__inner .title a{
     position: relative;
     font-weight: 500;
     font-size: 24px;
@@ -139,7 +140,8 @@ h1 span{
     display: inline-block;
 }
 
-.hero__inner .title a::after {
+.hero__inner .title a::after,
+ .service__work__inner .title a::after {
     position: absolute;
     content: "";
     height: 100%;
@@ -152,15 +154,20 @@ h1 span{
     border-radius: 3px;
 }
 
+.service__work__inner .title a::after {
+    width: 33%;
+}
+
 .title a span{
     color: #fff;
 }
 
-.hero__inner .title a:hover{
+.hero__inner .title a:hover, .service__work__inner .title a:hover{
     color: #fff;
 }
 
-.hero__inner .title a:hover::after{
+.hero__inner .title a:hover::after,
+ .service__work__inner .title a:hover::after{
     width: 100%;
 }
 
@@ -225,20 +232,20 @@ h1 span{
     opacity: 0;
   }
    
-  .swiper {
+  .service_inner .swiper {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
   }
   
-  .swiper-slide {
+  .service_inner .swiper-slide {
     background-position: center;
     background-size: cover;
     width: 550px;
     height: 550px;
   }
   
-  .swiper-slide img {
+  .service_inner .swiper-slide img {
     display: block;
     width: 100%;
   }
@@ -322,25 +329,13 @@ h1 span{
     padding: 100px 0px 200px;
   }
   
- 
-  
-  
+
   /* ===================================
       service CSS end here
   ======================================*/
 
 
-
-
-
-
-
-
-
-
-
-
-/* =====service work section start here */
+/* =====service work section start here====== */
 
 /* .service__work__inner .item h1{
     font-weight: 600;
@@ -353,6 +348,11 @@ h1 span{
       margin: 200px 0;
     }
 
+    .service__work__section .title {
+        margin-top: 50px;
+    }
+
+   
     /* owl carosol */
     .owl-carousel .owl-stage-outer {
         position: relative;
@@ -398,25 +398,21 @@ h1 span{
 /* =====service work section end here===== */
 
 
-/*===== client section start here===== */
+/*=====client section start here===== */
 .client__inner .client__logo {
     padding-top: 130px;
 }
-
-/* .client__inner .client__logo .logo__section img {
-    width: 100%;
-} */
 
 .client__inner .client__logo .logo__area {
     margin-bottom: 130px;
 }
 
 /* ========================== */
- /* h1 {
+ h1 {
     font-weight: 600;
     font-size: 60px;
     margin: 0;
-} */
+}
 /* ====================== */
 
 
@@ -453,3 +449,203 @@ h1.number_in {
     margin: 0;
 }
 /*===== client section end here===== */
+
+/* =====facilities section start here==== */
+.facilities__section {
+    margin: 200px 0;
+}
+
+.quate.facilities__quate {
+    text-align: right;
+}
+
+.quate.facilities__quate span {
+    padding: 0;
+    background: linear-gradient(91.57deg, #0057FF 48.67%, #39C1DF 76.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.quate.facilities__quate span::after {
+    left: -76px;
+    background: linear-gradient(135deg, #0057FF 25%, #000000 80.79%);
+}
+
+.facilities__section .title {
+    padding-bottom: 60px;
+}
+
+.our__exprts .exprts__area {
+    margin-bottom: 22px;
+}
+
+.image__section img{
+    width: 100%;
+}
+/* =====facilities section end here===== */
+
+/* =====testimonial section start here===== */
+.testimonial__inner {
+    background-image: url(../image/banner/testimonial.png);
+    padding: 61px 130px 44px 58px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+}
+
+.testimonial__inner .boss__spec .title,
+ .testimonial__inner .boss__spec .para {
+    color: #fff;
+}
+
+.testimonial__inner .boss__spec .title h2{
+    font-size: 48px;
+    height: 72px;
+    margin: 0;
+}
+
+.testimonial__inner .boss__spec .title h4 {
+    margin-bottom: 33px;
+}
+
+.testimonial__inner .boss__spec .para{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: justify;
+}
+
+/*boss swiper */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    /* text-align: center; */
+    font-size: 18px;
+    /* background: #fff; */
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+/*boss swiper */
+/* =====testimonial section end here===== */
+
+
+/* =====challange section start here===== */
+.challange__section {
+    margin: 200px 0;
+}
+
+.challange__section .our__info .address {
+    padding: 134px 0 70px;
+}
+
+.challange__section .our__info .address h4,
+ .challange__section .our__info .contact h4 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 48px;
+    margin: 0;
+}
+
+.our__info .foot {
+    padding: 70px 0;
+}
+
+.challange__section .our__info .foot form input {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.our__info form span {
+    height: 3px;
+    width: 100%;
+    background: #000;
+    display: block;
+}
+
+/* =====challange section end here===== */
+
+
+/* =====footer section start here */
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__inner .social__media ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer__inner .social__media ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.footer__inner .social__media ul li:hover {
+    margin-top: -30px;
+    transition: .3s;
+}
+
+/* .footer__inner .social__media ul li a i{
+
+} */
+
+.footer__inner .social__media ul li a i {
+    position: absolute;
+    transition: .5s;
+    left: 0px;/* bottom: 0; */
+    display: inline-block;
+    /* top: -10px; */}
+
+.footer__inner .social__media ul li img {
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: .3s;
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.footer__inner .social__media ul li:hover img {
+    visibility: visible;
+    opacity: 1;
+}
+
+.footer__inner .social__media ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 8px;
+    transition: .3s;
+}
+/* = */
+
+.footer__inner .social__media ul li a i {
+    font-size: 26px;
+}
+/* =====footer section end here */

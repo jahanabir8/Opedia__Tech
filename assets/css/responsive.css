@@ -90,6 +90,26 @@
     .client__inner .client__logo .logo__area {
         margin-bottom: 100px;
     }
+
+    .facilities__section {
+        margin: 150px 0;
+    }
+
+    .testimonial__inner .boss__spec .title h2 {
+        font-size: 35px;
+        height: 39px;
+    }
+
+    .testimonial__inner .boss__spec .title h4 {
+        margin: 10px 0;
+        font-size: 20px;
+    }
+
+    .testimonial__inner .boss__spec .para {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 23px;
+    }
 }
 
 @media screen and (max-width: 991PX) {
@@ -139,6 +159,28 @@
     .client__satisfic .giffy {
         margin-left: 0;
     }
+
+    .facilities__section .image__section {
+        padding-bottom: 24px;
+    }
+
+    .our__exprts .exprts__area {
+        margin-bottom: 0;
+    }
+
+    .testimonial__inner {
+        padding: 61px;
+    }
+
+    .testimonial__inner .boss__spec .title h2 {
+        font-size: 33px;
+        height: 37px;
+    }
+
+    .testimonial__inner .boss__spec .para {
+        font-size: 15px;
+        line-height: 20px;
+    }
 }
 
 @media screen and (max-width: 767PX) {
@@ -184,6 +226,35 @@
     .owl-carousel .owl-stage-outer {
         padding-top: 90px;
     }
+
+    .facilities__section {
+        margin: 120px 0;
+    }
+
+    .testimonial__inner .boss__spec .title, .testimonial__inner .boss__spec .para {
+        color: #fff;
+        text-align: center;
+    }
+
+    .testimonial__inner .boss__spec {
+        padding-top: 50px;
+    }
+
+    .testimonial__inner .boss__spec .title h2 {
+        font-size: 38px;
+        height: 45px;
+    }
+
+    .testimonial__inner .boss__spec .title h4 {
+        font-size: 24px;
+        margin: 16px 0;
+    }
+
+    .testimonial__inner .boss__spec .para {
+        font-size: 19px;
+        line-height: 26px;
+        text-align: justify;
+    }
 }
 
 @media screen and (max-width: 575PX) {
@@ -221,6 +292,25 @@
     .client__logo {
         margin-bottom: 60px;
     }
+
+    .testimonial__inner .boss__spec {
+        padding-top: 35px;
+    }
+
+    .testimonial__inner .boss__spec .title h2 {
+        font-size: 36px;
+        height: 36px;
+    }
+
+    .testimonial__inner .boss__spec .title h4 {
+        font-size: 22px;
+        margin: 12px 0;
+    }
+
+    .testimonial__inner .boss__spec .para {
+        font-size: 17px;
+        line-height: 22px;
+    }
 }
 
 @media screen and (max-width: 424PX) {
@@ -238,7 +328,17 @@
         font-size: 18px;
         text-align: justify;
     }
+
+    .testimonial__inner {
+        padding: 25px;
+    }
 }
+
+@media screen and (max-width: 423px) {
+    .service_header_left h2, .service_header_left h3 {
+      font-size: 23px;
+    }
+  }
 
 @media screen and (max-width: 374PX) {
     .hero__section {
@@ -254,13 +354,12 @@
         font-size: 24px;
         line-height: 37px;
     }
+
+    .facilities__section {
+        margin: 90px 0;
+    }
 }
 
-@media screen and (max-width: 423px) {
-    .service_header_left h2, .service_header_left h3 {
-      font-size: 23px;
-    }
-  }
 
 
 /* =======responsive end here====== */

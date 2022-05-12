@@ -64,4 +64,12 @@ var swiper = new Swiper(".serviceSwiper", {
 },
 
 });
+
+// testimonial swiper
+var swiper = new Swiper(".boss__swiper", {
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: true,
+  },
+});
  
