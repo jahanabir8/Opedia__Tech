@@ -152,6 +152,10 @@
         padding-top: 55px;
     }
 
+    .client__inner .logo__section img {
+        max-width: 100%;
+    }
+
     .client__satisfic .satisfic__list__full {
         margin: 0 0 40px 0;
     }
@@ -181,6 +185,53 @@
         font-size: 15px;
         line-height: 20px;
     }
+
+    .challange__section,
+     .blog__section {
+        margin: 140px 0;
+    }
+
+    .challange__section .our__info .address {
+        padding: 110px 0 70px;
+    }
+
+    .challange__section .our__info .address h4, .challange__section .our__info .contact h4 {
+        font-size: 24px;
+    }
+
+    .footer__inner {
+        display: block;
+        text-align: center;
+    }
+
+    .footer__inner .social__media ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer__inner .social__media ul li {
+        margin-right: 0px;
+    }
+
+    .footer__inner .social__media ul li a {
+        margin: 0;
+    }
+
+    .image__section__outer .content h4 {
+        font-size: 24px;
+    }
+
+    .image__section__outer .content p {
+        margin: 30px 0;
+    }
+
+    .image__section__outer .content h4 {
+        font-size: 21px;
+    }
+
+    .blog__inner .title{
+        padding-bottom: 140px;
+    }
 }
 
 @media screen and (max-width: 767PX) {
@@ -209,7 +260,8 @@
       }
     /* ----- */
 
-    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    .owl-theme .owl-dots .owl-dot.active span,
+     .owl-theme .owl-dots .owl-dot:hover span {
         height: 40px;
         width: 40px;
     }
@@ -231,7 +283,8 @@
         margin: 120px 0;
     }
 
-    .testimonial__inner .boss__spec .title, .testimonial__inner .boss__spec .para {
+    .testimonial__inner .boss__spec .title,
+     .testimonial__inner .boss__spec .para {
         color: #fff;
         text-align: center;
     }
@@ -254,6 +307,28 @@
         font-size: 19px;
         line-height: 26px;
         text-align: justify;
+    }
+
+    .challange__section .our__info .address h4,
+     .challange__section .our__info .contact h4 {
+        font-size: 28px;
+        line-height: 37px;
+    }
+
+    .challange__section .md-hide {
+        display: none;
+    }
+
+    .footer__inner .social__media ul li a i {
+        font-size: 22px;
+    }
+
+    .blog__inner .sm-hide {
+        display: none;
+    }
+
+    .image__section__outer .content h4 {
+        line-height: 34px;
     }
 }
 
@@ -311,6 +386,50 @@
         font-size: 17px;
         line-height: 22px;
     }
+
+    .challange__section,
+     .blog__section
+      {
+        margin: 100px 0;
+    }
+
+    .challange__section .our__info .address {
+        padding: 70px 0;
+    }
+
+    .our__info .foot {
+        padding-top: 70px;
+    }
+
+    .challange__section .our__info .address h4,
+     .challange__section .our__info .contact h4 {
+        font-size: 21px;
+        line-height: 37px;
+    }
+
+    .blog__inner .title{
+        padding-bottom: 100px;
+    }
+
+    .blog__inner .image__section.got__padd {
+        margin-top: 20px;
+    }
+
+    .blog__inner .image__section{
+        margin-top: 20px;
+    }
+
+    .image__section__outer .content p {
+        margin: 15px 0;
+    }
+
+    .blog__inner .content {
+        margin-bottom: 30px;
+    }
+
+    .blog__inner .content:last-child{
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 424PX) {
@@ -329,8 +448,23 @@
         text-align: justify;
     }
 
+    .challange__section .our__info .address h4, .challange__section .our__info .contact h4 {
+        font-size: 19px;
+        line-height: 37px;
+    }
+
     .testimonial__inner {
         padding: 25px;
+    }
+
+    .challange__section,
+     .blog__section
+    {
+        margin: 68px 0;
+    }
+
+    .blog__inner .title{
+        padding-bottom: 68px;
     }
 }
 
@@ -358,6 +492,22 @@
     .facilities__section {
         margin: 90px 0;
     }
+
+    .challange__section .our__info .address {
+        padding: 50px 0;
+    }
+
+    .challange__section .our__info .address h4,
+     .challange__section .our__info .contact h4 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .our__info .foot {
+        padding-top: 50px;
+    }
+
+
 }
 
 

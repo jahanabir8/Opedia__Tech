@@ -158,16 +158,23 @@ h1 span{
     width: 33%;
 }
 
+/* .hero__section.banner__hero .title a::after {
+    width: 35%;
+} */
+
 .title a span{
     color: #fff;
 }
 
-.hero__inner .title a:hover, .service__work__inner .title a:hover{
+.hero__inner .title a:hover,
+ .service__work__inner .title a:hover,
+  .hero__inner .title a:hover::after{
     color: #fff;
 }
 
 .hero__inner .title a:hover::after,
- .service__work__inner .title a:hover::after{
+ .service__work__inner .title a:hover::after,
+  .hero__inner .title a:hover::after{
     width: 100%;
 }
 
@@ -194,6 +201,7 @@ h1 span{
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    display: none;
   }
   
   .quate {
@@ -453,6 +461,7 @@ h1.number_in {
 /* =====facilities section start here==== */
 .facilities__section {
     margin: 200px 0;
+    display: none;
 }
 
 .quate.facilities__quate {
@@ -562,8 +571,13 @@ h1.number_in {
     margin: 0;
 }
 
+.challange__inner .contact h4 a {
+    text-decoration: none;
+    color: #000;
+}
+
 .our__info .foot {
-    padding: 70px 0;
+    padding-top: 70px;
 }
 
 .challange__section .our__info .foot form input {
@@ -649,3 +663,64 @@ h1.number_in {
     font-size: 26px;
 }
 /* =====footer section end here */
+
+
+
+
+
+
+
+
+
+/* ==============================================
+            blog page start here
+============================================== */
+.blog__section {
+    margin: 200px 0;
+}
+
+.blog__inner .title {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.container-fluid {
+    max-width: 1444px;
+    margin: auto;
+}
+
+.image__section {
+    overflow: hidden;
+}
+
+.blog__inner .image__section.clip__path img {
+    transform: scale(1.4);
+    transition: all 0.5s ease-in-out;
+}
+
+.blog__inner .image__section.got__padd{
+    margin-top: 100px;
+}
+
+.blog__inner .image__section.clip__path img:hover{
+    transform: scale(1);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+.image__section__outer .content p {
+    margin: 50px 0;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.image__section__outer .content h4 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;color: #3F3F3F;
+}
+
+
+/* ==============================================
+            blog page start here
+============================================== */
