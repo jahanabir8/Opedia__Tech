@@ -18,7 +18,7 @@
 .header {
     display: flex;
     align-items: center;
-    padding: 15px 0;
+    padding: 17px 0;
    
 }
 
@@ -102,7 +102,9 @@
 .hero__section {
     display: flex;
     align-items: center;
-    padding: 198px 0;
+    /* padding: 198px 0; */
+    height: 89vh;
+
 }
 
 h1 span{
@@ -125,7 +127,8 @@ h1 span{
 
 
 .hero__inner .title a,
- .service__work__inner .title a{
+ .service__work__inner .title a,
+  .ouroffer__inner .offer__banner h1 a {
     position: relative;
     font-weight: 500;
     font-size: 24px;
@@ -140,8 +143,14 @@ h1 span{
     display: inline-block;
 }
 
+.ouroffer__inner .offer__banner h1 a{
+    font-size: 60px;
+    font-weight: 600;
+}
+
 .hero__inner .title a::after,
- .service__work__inner .title a::after {
+ .service__work__inner .title a::after,
+  .ouroffer__inner .offer__banner h1 a::after {
     position: absolute;
     content: "";
     height: 100%;
@@ -162,20 +171,28 @@ h1 span{
     width: 35%;
 } */
 
-.title a span{
+.title a span,
+ .ouroffer__inner .offer__banner h1 a span{
     color: #fff;
 }
 
 .hero__inner .title a:hover,
  .service__work__inner .title a:hover,
-  .hero__inner .title a:hover::after{
+  .hero__inner .title a:hover::after
+  /* .ouroffer__inner .offer__banner h1 a:hover::after */
+  {
     color: #fff;
 }
 
 .hero__inner .title a:hover::after,
  .service__work__inner .title a:hover::after,
-  .hero__inner .title a:hover::after{
+  .hero__inner .title a:hover::after,
+   .ouroffer__inner .offer__banner h1 a:hover::after{
     width: 100%;
+}
+
+.ouroffer__inner .offer__banner h1 a:hover{
+    color: #fff;
 }
 
 .giffy img {
@@ -201,7 +218,7 @@ h1 span{
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    display: none;
+    /* display: none; */
   }
   
   .quate {
@@ -461,11 +478,16 @@ h1.number_in {
 /* =====facilities section start here==== */
 .facilities__section {
     margin: 200px 0;
-    display: none;
+    /* display: none; */
 }
 
 .quate.facilities__quate {
     text-align: right;
+}
+
+.quate.facilities__quate.job__offer .rotate {
+    display: inline-block;
+    transform: rotate(90deg);
 }
 
 .quate.facilities__quate span {
@@ -581,7 +603,7 @@ h1.number_in {
 }
 
 .challange__section .our__info .foot form input {
-    width: 100%;
+    /* width: 100%; */
     outline: none;
     border: none;
     padding: 10px 0;
@@ -689,7 +711,7 @@ h1.number_in {
     margin: auto;
 }
 
-.image__section {
+.image__section.for__blog {
     overflow: hidden;
 }
 
@@ -722,5 +744,99 @@ h1.number_in {
 
 
 /* ==============================================
-            blog page start here
+            blog page end here
 ============================================== */
+
+
+/* =============================================
+            career page start here
+================================================*/
+.joboffer__section {
+    margin: 200px 0px;
+}
+
+.joboffer__inner .content__disk {
+    margin: 103px 0;
+}
+
+.joboffer__inner .descript .content h4 {
+    font-weight: 600;
+    margin: 0 0 40px 0;
+    font-size: 36px;
+    line-height: 54px;
+    background: linear-gradient(91.57deg, #0057FF 48.67%, #39C1DF 76.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.joboffer__inner .descript .content p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: justify;
+}
+
+.ouroffer__section { 
+    margin: 200px;
+}
+
+.ouroffer__inner .facilities__quate {
+    text-align: left;
+}
+
+.ouroffer__inner .facilities__quate .rotate {
+    transform: rotate(90deg);
+    display: inline-block;
+}
+
+.ouroffer__inner .offer__banner {
+    margin: 100px 0;
+}
+
+.ouroffer__inner .title h4 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    margin: 40px 0 120px;
+}
+
+.ouroffer__inner .opportunities .content {
+    padding-top: 10px;
+    border-top: 1px solid #3F3F3F;
+}
+
+.ouroffer__inner .opportunities .content h4 {
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 54px;
+}
+
+.ouroffer__inner .opportunities .content {
+    padding-top: 10px;
+    border-top: 1px solid #3F3F3F;
+}
+    
+.ouroffer__inner .opportunities .content p {
+    margin: 40px 0 90px 0;
+    font-size: 22px;
+    line-height: 42px;
+    text-align: justify;
+}
+
+.ouroffer__inner .offer__banner h1 a {
+    padding: 20px;
+}
+
+.offer__banner h1 {
+    color: rgba(0, 87, 255, 1);
+    font-weight: 600;
+    font-size: 60px;
+    margin: 0;
+    line-height: 78px;
+}
+
+
+    
+/* =============================================
+            career page start here
+================================================*/

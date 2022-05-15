@@ -43,6 +43,10 @@
         height: 50px;
         width: 50px;
     }
+    
+    .ouroffer__inner .offer__banner .title h1,  .ouroffer__inner .offer__banner .title h1 a{
+        font-size: 49px;
+    }
 }
 
 @media screen and (max-width: 1199px) {
@@ -109,6 +113,27 @@
         font-weight: 300;
         font-size: 17px;
         line-height: 23px;
+    }
+
+    .joboffer__inner .descript .content h4 {
+        margin: 0 0 30px 0;
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    .joboffer__inner .descript .content p {
+        font-size: 23px;
+        line-height: 36px;
+    }
+
+    .ouroffer__inner .offer__banner .title h1,
+     .ouroffer__inner .offer__banner .title h1 a {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .ouroffer__inner .offer__banner h1 a {
+        padding: 12px;
     }
 }
 
@@ -187,7 +212,9 @@
     }
 
     .challange__section,
-     .blog__section {
+     .blog__section,
+      .joboffer__section, .ouroffer__section,
+       .ouroffer__section {
         margin: 140px 0;
     }
 
@@ -231,6 +258,28 @@
 
     .blog__inner .title{
         padding-bottom: 140px;
+    }
+
+    .joboffer__section .quate.facilities__quate.job__offer .rotate {
+        display: inline-block;
+        transform: rotate(90deg);
+        transform: none;
+    }
+
+    .joboffer__inner .content__disk {
+        margin: 77px 0;
+    }
+
+    .joboffer__inner .descript .content h4 {
+        margin: 0 0 25px 0;
+        font-size: 33px;
+        line-height: 45px;
+    }
+
+    .joboffer__inner .descript .content p {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
     }
 }
 
@@ -330,6 +379,10 @@
     .image__section__outer .content h4 {
         line-height: 34px;
     }
+
+    .joboffer__inner .descript {
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width: 575PX) {
@@ -388,7 +441,9 @@
     }
 
     .challange__section,
-     .blog__section
+     .blog__section,
+      .joboffer__section,
+       .ouroffer__section
       {
         margin: 100px 0;
     }
@@ -458,13 +513,30 @@
     }
 
     .challange__section,
-     .blog__section
+     .blog__section,
+      .joboffer__section,
+       .ouroffer__section
     {
         margin: 68px 0;
     }
 
     .blog__inner .title{
         padding-bottom: 68px;
+    }
+
+    .joboffer__inner .descript .content h4 {
+        margin: 0 0 19px 0;
+        font-size: 30px;
+        line-height: 42px;
+        text-align: center;
+    }
+
+    .joboffer__inner .descript .content p {
+        line-height: 24px;
+    }
+
+    .joboffer__inner .descript .content h4 {
+        margin: 0 0 13px 0;
     }
 }
 
