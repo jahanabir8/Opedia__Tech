@@ -14,7 +14,44 @@
     overflow: hidden;
 }
 
+.container{
+    max-width: 1550px;
+}
+
+/* =====social media color===== */
+.fa-brands.fa-facebook{
+    color: #1877F2;
+    color: #E4405F;
+}
+
+.fa-brands.fa-behance-square{
+    color: #131418;
+}
+
+.fa-solid.fa-basketball{
+    color: #EA4C89;
+}
+
+.fa-brands.fa-dribbble{
+    color: #EA4C89;
+}
+
+.fa-brands.fa-whatsapp-square{
+    color: #25D366;
+}
+
+.fa-brands.fa-instagram-square{
+    
+}
+
+
+/* =====social media color===== */
+
 /* =====header section start here====== */
+.banner__section{
+    height: 100vh;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -103,7 +140,8 @@
     display: flex;
     align-items: center;
     /* padding: 198px 0; */
-    height: 89vh;
+    /* height: 89vh; */
+    height: 100%;
 
 }
 
@@ -751,6 +789,10 @@ h1.number_in {
 /* =============================================
             career page start here
 ================================================*/
+.title.career__page a::after {
+    width: 50%;
+}
+
 .joboffer__section {
     margin: 200px 0px;
 }
