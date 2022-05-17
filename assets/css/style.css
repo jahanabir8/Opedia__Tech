@@ -789,6 +789,119 @@ h1.number_in {
 /* =============================================
             career page start here
 ================================================*/
+
+/* ========advantege section start here======== */
+
+.advantage__inner .title.show__once h1 {
+    display: none;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+}
+
+/* ----accordion----- */
+.accordion{
+    text-align: -webkit-center;
+}
+
+.accrodion__one .accordion__display__one h3,
+ .accrodion__two .accordion__display__two h3,
+  .accrodion__three .accordion__display__three h3,
+   .accrodion__four .accordion__display__four h3 {
+    font-size: 20px;
+}
+
+.accrodion__one .accordion__display__one h3 span,
+ .accrodion__two .accordion__display__two h3 span,
+  .accrodion__three .accordion__display__three h3 span,
+   .accrodion__four .accordion__display__four h3 span
+   {
+    background-color: transparent;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 45px;
+    border: 2px solid #fff;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.advantage__inner .text__part .title h1,
+ .advantage__inner .text__part .accordion__display__one h3,
+  .advantage__inner .text__part .accordion__display__two h3,
+   .advantage__inner .text__part .accordion__display__three h3,
+    .advantage__inner .text__part .accordion__display__four h3,
+     .advantage__inner .text__part .accordion__hidden__one p,
+      .advantage__inner .text__part .accordion__hidden__two p,
+       .advantage__inner .text__part .accordion__hidden__three p,
+        .advantage__inner .text__part .accordion__hidden__four p {
+    color: #fff;
+}
+
+.accrodion__one,
+ .accrodion__two,
+  .accrodion__three,
+   .accrodion__four
+    {
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.accordion__hidden__one,
+ .accordion__hidden__two,
+  .accordion__hidden__three,
+   .accordion__hidden__four
+    {
+    display: none;
+}
+
+.accordion__hidden__one p,
+ .accordion__hidden__two p,
+  .accordion__hidden__three p,
+    .accrodion__hidden__four p
+  {
+    font-size: 18px;
+    color: #646464;
+    margin-top: 20px;
+}
+
+.accordion__display__one,
+ .accordion__display__two,
+  .accordion__display__three,
+    .accordion__display__four
+   {
+    cursor: pointer;
+    position: relative;
+    font-weight: bold;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+/* .accordion i#firsticon__for__one,
+ .accordion i#firstsicon__for__two,
+  .accordion i#firstsicon__for__three,
+   .accordion i#firstsicon__for__four {
+    color: #Fff;
+} */
+/* ----accordion end----- */
+
+.advantage__inner .image__part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantage__inner .image__part img:first-child {
+    margin: 137px 0 20px 0;
+}
+
+.advantage__inner .image__part img:last-child{
+    margin: 20px 0 137px 0;
+}
+
+/* ========advantege section end here======== */
+
 .title.career__page a::after {
     width: 50%;
 }

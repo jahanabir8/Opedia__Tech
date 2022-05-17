@@ -47,6 +47,16 @@
     .ouroffer__inner .offer__banner .title h1,  .ouroffer__inner .offer__banner .title h1 a{
         font-size: 49px;
     }
+
+
+    /* .advantage__inner .image__part img:first-child,
+     .advantage__inner .image__part img:last-child {
+        margin: 137px 0 20px 0;
+    } */
+
+    .image__part img {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 1199px) {
@@ -321,6 +331,20 @@
     .ouroffer__inner .facilities__quate {
         text-align: right;
     }
+
+    
+    .advantage__inner .title.show__once h1 {
+        display: block;
+    }
+
+    .advantage__inner .text__part .title.hide__once h1{
+        display: none;
+    }
+
+    .advantage__inner .image__part img:first-child,
+     .advantage__inner .image__part img:last-child {
+        margin: 0;
+     }
 }
 
 @media screen and (max-width: 767PX) {
@@ -426,6 +450,10 @@
 
     .ouroffer__inner .title h4 {
         font-size: 34px;
+    }
+
+    .advantage__inner .image__part {
+        margin-bottom: 14px;
     }
 }
 
@@ -586,6 +614,36 @@
 
     .joboffer__inner .descript .content h4 {
         margin: 0 0 13px 0;
+    }
+
+    .accordion__display__one h3,
+     .accordion__display__two h3,
+      .accordion__display__three h3,
+       .accordion__display__four h3 {
+        font-size: 14px !important;
+    }
+
+    .accrodion__one .accordion__display__one h3 span,
+     .accrodion__two .accordion__display__two h3 span,
+      .accrodion__three .accordion__display__three h3 span,
+       .accrodion__four .accordion__display__four h3 span {
+        padding: 7px;
+        width: 37px;
+    }
+
+    .accrodion__one,
+     .accrodion__two,
+     .accrodion__three,
+     .accrodion__four {
+        padding: 20px;
+        margin: 0;
+    }
+
+    .accordion__hidden__one p,
+     .accordion__hidden__two p,
+     .accordion__hidden__three p,
+     .accrodion__hidden__four p {
+        font-size: 14px;
     }
 }
 
