@@ -162,6 +162,10 @@
         margin: 40px 0 60px 0;
         line-height: 34px;
     }
+
+    .inspire__section {
+        padding: 80px 0;
+    }
 }
 
 @media screen and (max-width: 991PX) {
@@ -345,6 +349,10 @@
      .advantage__inner .image__part img:last-child {
         margin: 0;
      }
+
+     .accordion__display__one, .accordion__display__two, .accordion__display__three, .accordion__display__four, .accordion__display__five {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 767PX) {
@@ -455,6 +463,18 @@
     .advantage__inner .image__part {
         margin-bottom: 14px;
     }
+
+    .inspire__inner .title.hide__once h1{
+        display: none;
+    }
+
+    .inspire__inner .title.show__once h1 {
+        display: block;
+    }
+
+    .inspire__inner .title h1.inspire__title {
+        padding-bottom: 80px;
+    }
 }
 
 @media screen and (max-width: 575PX) {
@@ -562,6 +582,23 @@
         margin: 40px 0;
         font-size: 20px;
     }
+
+    .inspire__inner .accrodion__one .accordion__display__one h3,
+     .inspire__inner .accrodion__two .accordion__display__two h3,
+      .inspire__inner .accrodion__three .accordion__display__three h3,
+       .inspire__inner .accrodion__four .accordion__display__four h3,
+        .inspire__inner .accrodion__five .accordion__display__five h3 {
+        font-size: 27px;
+    }
+
+    .accrodion__one,
+     .accrodion__two,
+      .accrodion__three,
+       .accrodion__four,
+        .accrodion__five {
+        padding: 20px;
+        margin: 5px 0;
+    }
 }
 
 @media screen and (max-width: 424PX) {
@@ -616,10 +653,10 @@
         margin: 0 0 13px 0;
     }
 
-    .accordion__display__one h3,
-     .accordion__display__two h3,
-      .accordion__display__three h3,
-       .accordion__display__four h3 {
+    .accordion__display__one h3.font,
+     .accordion__display__two h3.font,
+      .accordion__display__three h3.font,
+       .accordion__display__four h3.font {
         font-size: 14px !important;
     }
 
@@ -684,6 +721,14 @@
 
     .our__info .foot {
         padding-top: 50px;
+    }
+
+    .inspire__inner .accrodion__one .accordion__display__one h3,
+     .inspire__inner .accrodion__two .accordion__display__two h3,
+      .inspire__inner .accrodion__three .accordion__display__three h3,
+       .inspire__inner .accrodion__four .accordion__display__four h3,
+        .inspire__inner .accrodion__five .accordion__display__five h3 {
+        font-size: 24px;
     }
 
 

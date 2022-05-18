@@ -98,6 +98,12 @@ $(document).ready(function(){
 
   })
 
+  $(".accordion__display__five").click(function(){
+      $(".accordion__hidden__five").toggle("slow");
+      // $("#firstsicon__for__four").toggleClass('fa-arrow-up-long');
+
+  })
+
 })
 // accordion section start here
  
