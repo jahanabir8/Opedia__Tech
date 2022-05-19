@@ -12,6 +12,7 @@
     height: 100%;
     background-color: #EBFDF5;
     overflow: hidden;
+    display: none;
 }
 
 .container{
@@ -137,7 +138,7 @@
 
 /* =====hero section start here====== */
 .hero__section {
-    padding: 198px 0;
+    margin: 198px 0;
     /* height: 89vh; */
     /* height: 100vh; */
 
@@ -721,6 +722,10 @@ h1.number_in {
 .footer__inner .social__media ul li a i {
     font-size: 26px;
 }
+
+.foot label {
+    display: inline;
+}
 /* =====footer section end here */
 
 
@@ -1047,10 +1052,94 @@ h1.number_in {
         /* -webkit-text-stroke: 2px transparent; */
         -webkit-text-stroke-color: #fff;
   }
+
+  .inspire__inner .inspire__img {
+    text-align: right;
+}
 /* =====inspire section end here===== */
-
-
 
 /* ============================================
             service page end here
+===============================================*/
+
+
+/* ============================================
+            work page start here
+===============================================*/
+
+/* =====kidd section start here===== */
+.kidd__section {
+    margin: 200px 0;
+}
+
+.kidd__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kidd__title .quate span, .kidd__inner .first__child .quate span {
+    padding: 0 78px 0 0;
+    background: linear-gradient(279.88deg, #33A3DC 5.78%, #21409A 85.04%);
+    -webkit-background-clip: text;
+}
+
+.kidd__title .quate.title__quate span::after{
+    left: 38%;
+}
+
+.kidd__inner .first__child .quate span::after {
+    left: 62%;
+}
+
+.kidd__section .quate span::after {
+    background: linear-gradient(279.88deg, #33A3DC 5.78%, #21409A 85.04%);
+
+}
+
+.kidd__inner .second__child {
+    padding: 100px 0;
+}
+
+.android__kidd .title p {
+    font-size: 24px;
+    line-height: 70px;
+    margin: 0;
+}
+
+.kidd__image{
+    position: relative;
+    overflow: hidden;
+}
+
+.kidd__image img{
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+}
+
+.kidd__image .kidd1android {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(22deg);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.kidd__image:hover .kidd1{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.kidd__image:hover .kidd1android{
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(0);
+}
+
+.android__kidd .title p span {
+    font-size: 18px;
+}
+/* =====kidd section end here===== */
+/* ============================================
+            work page end here
 ===============================================*/
