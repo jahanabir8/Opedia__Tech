@@ -51,6 +51,14 @@
     .image__part img {
         width: 50%;
     }
+
+    .gallery__inner .title h1{
+    font-size: 40px;
+}
+
+    .gallery__inner .title h4 {
+        font-size: 29px;
+    }
 }
 
 @media screen and (max-width: 1199px) {
@@ -159,6 +167,13 @@
 
     .inspire__section {
         padding: 80px 0;
+    }
+
+    .direction-l .flag:before, .direction-r .flag:before {
+        top: 200%;
+        right: -13px;
+        width: 20px;
+        height: 20px;
     }
 }
 
@@ -347,6 +362,36 @@
      .accordion__display__one, .accordion__display__two, .accordion__display__three, .accordion__display__four, .accordion__display__five {
         text-align: center;
     }
+
+    .gallery__inner .title {
+        bottom: 5%;
+    }
+
+    .gallery__inner .title h1 {
+        font-size: 31px;
+    }
+
+    .gallery__inner .title h4 {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .timeline:before {
+        left: 0;
+    }
+
+    .direction-l .flag:before,
+     .direction-r .flag:before {
+        /* top: 200%; */
+        right: 0;
+        width: 20px;
+        height: 20px;
+        left: -11px;
+        border-left: 0;
+        border-top: 4px solid blue;
+        border-bottom: 0;
+        border-right: 4px solid blue;
+    }
 }
 
 @media screen and (max-width: 767PX) {
@@ -470,8 +515,17 @@
         padding-bottom: 80px;
     }
 
-    .kidd__inner .quate {
+    .kidd__section .quate,
+     .era__section .quate {
         display: none;
+    }
+
+    .gallery__inner .title h1 {
+        font-size: 23px;
+    }
+
+    .gallery__inner .title h4 {
+        font-size: 16px;
     }
 }
 
@@ -606,6 +660,12 @@
         font-size: 22px;
         line-height: 50px;
     }
+
+
+    .gallery__inner .title {
+        left: 33%;
+        transform: translate(-25%);
+    }
 }
 
 @media screen and (max-width: 424PX) {
@@ -694,6 +754,11 @@
         font-size: 22px;
         line-height: 37px;
     }
+
+    .gallery__inner .title {
+        left: 23%;
+        transform: translate(-17%);
+    }
 }
 
 @media screen and (max-width: 423px) {
@@ -713,7 +778,7 @@
 
 @media screen and (max-width: 320PX) {
     h1, h1 span {
-        font-size: 24px;
+        font-size: 23px;
         line-height: 37px;
     }
 
@@ -745,6 +810,11 @@
 
     .inspire__inner .title h1.inspire__title {
         font-size: 40px;
+    }
+
+    .gallery__inner .title {
+        left: 11%;
+        transform: translate(-6%);
     }
 
 
