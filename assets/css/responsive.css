@@ -1,13 +1,26 @@
 /* =======responsive start here====== */
+
+
 @media screen and (min-width: 1400px) {
     .mission_section {
-      padding: 160px 0px 160px 288px;
+        padding: 190px 0px 190px 288px;
     }
   }
 
+
+  @media screen and (max-width: 1499px) {
+      .footer_image img {
+          width: 400px;
+      }
+  }
+
+
+
 @media screen and (max-width: 1399px) {
-    .hero__section, .kidd__section {
-        margin: 150px 0;
+    
+    /* hannan */
+    .hero__section {
+        padding: 150px 0;
     }
 
     h1, h1 span{
@@ -20,16 +33,16 @@
         font-size: 24px;
         line-height: 43px;
     }
-/* --- */
+    /* =============== */
     .mission_section {
         padding: 100px 0px 100px 120px;
-      }
+    }
 
-      .service_item h2, h3 {
+    .service_item h2, h3 {
         font-size: 40px;
         font-weight: 700;
-      }
-/* --- */
+    }
+    /* ===================== */
     .service__work__section {
         margin: 150px 0;
     }
@@ -43,7 +56,13 @@
         height: 50px;
         width: 50px;
     }
-    
+    .swiper-button-prev {
+        left: 87%;
+    }
+    /* hannan */
+
+
+   
     .ouroffer__inner .offer__banner .title h1,  .ouroffer__inner .offer__banner .title h1 a{
         font-size: 49px;
     }
@@ -63,69 +82,88 @@
 
 @media screen and (max-width: 1199px) {
 
-    .hero__section, .kidd__section {
-        margin: 120px 0;
-    }
 
-    h1, h1 span {
-        font-size: 43px;
-        line-height: 75px;
-    }
+/* hannan */
+.hero__section {
+    padding: 120px 0;
+}
 
-    .hero__section .hero__inner span.title__span {
-        font-size: 20px;
-        line-height: 34px;
-    }
+h1, h1 span {
+    font-size: 43px;
+    line-height: 75px;
+}
 
-    .hero__inner .title a {
-        font-size: 22px;
-        line-height: 26px;
-    }
+.hero__section .hero__inner span.title__span {
+    font-size: 20px;
+    line-height: 34px;
+}
 
-    /* ---- */
-    .mission_content_section .mission_content h2 {
-        font-size: 60px;
-      }   
-      .mission_content_section {
-        padding-right: 120px;
-      }
-    
-    .service_section {
-        padding: 100px 0px 0px;
-      } 
+.hero__inner .title a {
+    font-size: 22px;
+    line-height: 26px;
+}
 
-    .service_header_left h2, .service_header_left h3 {
-        font-size: 46px;
-      }
-    /* ---- */
+/* ============================== */
+.mission_content_section .mission_content h2 {
+    font-size: 60px;
+    margin-bottom: 45px;
+}   
+.mission_content_section {
+    padding-right: 120px;
+}
 
-    .client__inner .client__logo {
-        padding-top: 100px;
-    }
+.service_section {
+    padding: 100px 0px 0px;
+} 
 
-    .client__inner .client__logo .logo__area {
-        margin-bottom: 100px;
-    }
+.service_header_left h2, .service_header_left h3 {
+    font-size: 46px;
+}
+/* ============================== */
 
-    .facilities__section {
-        margin: 150px 0;
-    }
+.client__inner .client__logo {
+    padding-top: 100px;
+}
 
-    .testimonial__inner .boss__spec .title h2 {
-        font-size: 35px;
-        height: 39px;
-    }
+.client__inner .client__logo .logo__area {
+    margin-bottom: 100px;
+}
 
-    .testimonial__inner .boss__spec .title h4 {
-        margin: 10px 0;
-        font-size: 20px;
-    }
+.facilities__section {
+    margin: 150px 0;
+}
 
-    .testimonial__inner .boss__spec .para {
-        font-weight: 300;
-        font-size: 17px;
-        line-height: 23px;
-    }
+.testimonial__inner .boss__spec .title h2 {
+    font-size: 35px;
+    height: 39px;
+}
+
+.testimonial__inner .boss__spec .title h4 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.testimonial__inner .boss__spec .para {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 23px;
+}
+.swiper-button-prev {
+    left: 84%;
+}
+.testimonial_swiper_slider {
+    height: 420px;
+}
+
+.footer_image img {
+    width: 100%;
+}
+/* hannan */
+
+
+
+
+
 
     .joboffer__inner .descript .content h4 {
         margin: 0 0 30px 0;
@@ -177,112 +215,150 @@
     }
 }
 
+@media screen and (max-width: 1023px) {
+    .client_logo_item {
+        margin-bottom: 40px;
+    }
+}
+
 @media screen and (max-width: 991PX) {
-    .hero__section, .kidd__section {
-        margin: 110px 0;
-    }
 
-    h1, h1 span {
-        font-size: 32px;
-        line-height: 50px;
-    }
+    
+/* hannan */
+.hero__section {
+    padding: 110px 0;
+}
 
-    .hero__section .hero__inner span.title__span {
-        /* font-size: 14px; */
-        line-height: 26px;
-        margin: 23px 0 40px 0;
-    }
+h1, h1 span {
+    font-size: 32px;
+    line-height: 50px;
+}
 
-    .hero__inner .title a {
-        line-height: 18px;
-    }
+.hero__section .hero__inner span.title__span {
+    font-size: 14px;
+    line-height: 26px;
+    margin: 23px 0 40px 0;
+}
 
-    /* ----- */
-    .mission_section {
-        padding: 100px 0px 100px 20px;
-    }
-    .mission_content_section .mission_content h2 {
-      font-size: 40px;
-    }
-    .mission_content_section {
-      padding-right: 10px;
-    }
-    /* ----- */
+.hero__inner .title a {
+    line-height: 18px;
+}
 
-    .service__work__section {
-        margin: 120px 0;
-    }
+/* ==================== */
+.mission_section {
+    padding: 100px 0px 100px 20px;
+}
+.mission_content_section .mission_content h2 {
+  font-size: 40px;
+}
+.mission_content_section {
+  padding-right: 10px;
+}
 
-    .client__inner .client__logo {
-        padding-top: 55px;
-    }
+/* ====================== */
 
-    .client__inner .logo__section img {
-        max-width: 100%;
-    }
+.service__work__section {
+    margin: 120px 0;
+}
 
-    .client__satisfic .satisfic__list__full {
-        margin: 0 0 40px 0;
-    }
+.client__inner .client__logo {
+    padding-top: 55px;
+}
 
-    .client__satisfic .giffy {
-        margin-left: 0;
-    }
+.client__inner .logo__section img {
+    max-width: 100%;
+}
 
-    .facilities__section .image__section {
-        padding-bottom: 24px;
-    }
+.client__satisfic .satisfic__list__full {
+    margin: 0 0 40px 0;
+}
 
-    .our__exprts .exprts__area {
-        margin-bottom: 0;
-    }
+.client__satisfic .giffy {
+    margin-left: 0;
+}
 
-    .testimonial__inner {
-        padding: 61px;
-    }
+.facilities__section .image__section {
+    padding-bottom: 24px;
+}
 
-    .testimonial__inner .boss__spec .title h2 {
-        font-size: 33px;
-        height: 37px;
-    }
+.our__exprts .exprts__area {
+    margin-bottom: 0;
+}
 
-    .testimonial__inner .boss__spec .para {
-        font-size: 15px;
-        line-height: 20px;
-    }
+.testimonial__inner {
+    padding: 61px;
+}
 
-    .challange__section,
-     .blog__section,
-      .joboffer__section, .ouroffer__section,
-       .ouroffer__section {
-        margin: 140px 0;
-    }
+.testimonial__inner .boss__spec .title h2 {
+    font-size: 33px;
+    height: 37px;
+}
 
-    .challange__section .our__info .address {
-        padding: 110px 0 70px;
-    }
+.testimonial__inner .boss__spec .para {
+    font-size: 15px;
+    line-height: 20px;
+}
 
-    .challange__section .our__info .address h4, .challange__section .our__info .contact h4 {
-        font-size: 24px;
-    }
+.challange__section,
+ .blog__section {
+    margin: 140px 0;
+}
 
-    .footer__inner {
-        display: block;
-        text-align: center;
-    }
+.challange__section .our__info .address {
+    padding: 110px 0 70px;
+}
 
-    .footer__inner .social__media ul {
-        display: flex;
-        justify-content: space-around;
-    }
+.challange__section .our__info .address h4,
+ .challange__section .our__info .contact h4 {
+    font-size: 24px;
+}
 
-    .footer__inner .social__media ul li {
-        margin-right: 0px;
-    }
+.footer__inner {
+    display: block;
+    text-align: center;
+}
 
-    .footer__inner .social__media ul li a {
-        margin: 0;
-    }
+.footer__inner .social__media ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__inner .social__media ul li {
+    margin-right: 0px;
+}
+
+.footer__inner .social__media ul li a {
+    margin: 0;
+}
+
+.image__section__outer .content h4 {
+    font-size: 24px;
+}
+
+.image__section__outer .content p {
+    margin: 30px 0;
+}
+
+.image__section__outer .content h4 {
+    font-size: 21px;
+}
+
+.blog__inner .title{
+    padding-bottom: 140px;
+}
+
+.swiper-button-prev {
+    left: 78%;
+}
+.testimonial_swiper_slider {
+    height: 320px;
+}
+/* hannan */
+
+
+
+
+
 
     .image__section__outer .content h4 {
         font-size: 24px;
@@ -359,7 +435,10 @@
         margin: 0;
      }
 
-     .accordion__display__one, .accordion__display__two, .accordion__display__three, .accordion__display__four, .accordion__display__five {
+     .accordion__display__one, .accordion__display__two,
+      .accordion__display__three,
+       .accordion__display__four,
+        .accordion__display__five {
         text-align: center;
     }
 
@@ -395,92 +474,116 @@
 }
 
 @media screen and (max-width: 767PX) {
-    .hero__section, .kidd__section {
+
+/* hannan */
+.hero__section {
+    padding: 88px 0;
+}
+
+h1, h1 span {
+    font-size: 42px;
+    line-height: 60px;
+}
+
+.hero__section .hero__inner span.title__span {
+    font-size: 19px;
+    line-height: 30px;
+    margin: 23px 0 40px 0;
+}
+
+.hero__inner .giffy {
+    padding-top: 60px;
+}
+
+/* ================== */
+.service_item h2, h3 {
+    font-size: 26px;
+}
+/* =================== */
+
+.owl-theme .owl-dots .owl-dot.active span,
+ .owl-theme .owl-dots .owl-dot:hover span {
+    height: 40px;
+    width: 40px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    height: 40px;
+    width: 40px;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin:0;
+}
+
+.owl-carousel .owl-stage-outer {
+    padding-top: 90px;
+}
+
+.facilities__section {
+    margin: 120px 0;
+}
+
+.testimonial__inner .boss__spec .title,
+ .testimonial__inner .boss__spec .para {
+    color: #fff;
+    text-align: center;
+}
+
+.testimonial__inner .boss__spec {
+    padding-top: 50px;
+}
+
+.testimonial__inner .boss__spec .title h2 {
+    font-size: 38px;
+    height: 45px;
+}
+
+.testimonial__inner .boss__spec .title h4 {
+    font-size: 24px;
+    margin: 16px 0;
+}
+
+.testimonial__inner .boss__spec .para {
+    font-size: 19px;
+    line-height: 26px;
+    text-align: justify;
+}
+
+.challange__section .our__info .address h4,
+ .challange__section .our__info .contact h4 {
+    font-size: 28px;
+    line-height: 37px;
+}
+
+.challange__section .md-hide {
+    display: none;
+}
+
+.footer__inner .social__media ul li a i {
+    font-size: 22px;
+}
+
+.blog__inner .sm-hide {
+    display: none;
+}
+
+.image__section__outer .content h4 {
+    line-height: 34px;
+}
+.custom_pagi {
+    display: none;
+}
+.testimonial_swiper_slider {
+    height: 100%;
+}
+/* hannan */
+
+
+
+
+    .kidd__section {
         margin: 88px 0;
-    }
-
-    h1, h1 span {
-        font-size: 42px;
-        line-height: 60px;
-    }
-
-    .hero__section .hero__inner span.title__span {
-        font-size: 19px;
-        line-height: 30px;
-        margin: 23px 0 40px 0;
-    }
-
-    .hero__inner .giffy {
-        padding-top: 60px;
-    }
-
-    /* ----- */
-    .service_item h2, h3 {
-        font-size: 26px;
-      }
-    /* ----- */
-
-    .owl-theme .owl-dots .owl-dot.active span,
-     .owl-theme .owl-dots .owl-dot:hover span {
-        height: 40px;
-        width: 40px;
-    }
-
-    .owl-theme .owl-dots .owl-dot span {
-        height: 40px;
-        width: 40px;
-    }
-
-    .owl-theme .owl-nav.disabled + .owl-dots {
-        margin:0;
-    }
-
-    .owl-carousel .owl-stage-outer {
-        padding-top: 90px;
-    }
-
-    .facilities__section {
-        margin: 120px 0;
-    }
-
-    .testimonial__inner .boss__spec .title,
-     .testimonial__inner .boss__spec .para {
-        color: #fff;
-        text-align: center;
-    }
-
-    .testimonial__inner .boss__spec {
-        padding-top: 50px;
-    }
-
-    .testimonial__inner .boss__spec .title h2 {
-        font-size: 38px;
-        height: 45px;
-    }
-
-    .testimonial__inner .boss__spec .title h4 {
-        font-size: 24px;
-        margin: 16px 0;
-    }
-
-    .testimonial__inner .boss__spec .para {
-        font-size: 19px;
-        line-height: 26px;
-        text-align: justify;
-    }
-
-    .challange__section .our__info .address h4,
-     .challange__section .our__info .contact h4 {
-        font-size: 28px;
-        line-height: 37px;
-    }
-
-    .challange__section .md-hide {
-        display: none;
-    }
-
-    .footer__inner .social__media ul li a i {
-        font-size: 22px;
     }
 
     .blog__inner .sm-hide {
@@ -530,81 +633,135 @@
 }
 
 @media screen and (max-width: 575PX) {
-    h1, h1 span {
-        font-size: 32px;
-        line-height: 46px;
-    }
+    
+/* hannan */
+h1, h1 span {
+    font-size: 22px;
+    line-height: 46px;
+}
 
-    .hero__section .hero__inner span.title__span {
-        /* font-size: 15px; */
-        line-height: 28px;
-        margin: 23px 0 30px 0;
-    }
+.hero__section .hero__inner span.title__span {
+    font-size: 15px;
+    line-height: 28px;
+    margin: 23px 0 30px 0;
+}
 
-    /* ----- */
-    .mission_section {
-        padding: 100px 0px 100px 20px;
-    }
-    .mission_content_section .mission_content h2 {
-      font-size: 30px;
-    }
-    .mission_content_section {
-      padding-right: 10px;
-    }
+/* ===================== */
+.mission_section {
+    padding: 100px 0px 100px 20px;
+}
+.mission_content_section .mission_content h2 {
+  font-size: 30px;
+}
+.mission_content_section {
+  padding-right: 10px;
+}
 
-    .service_header_left h2, .service_header_left h3 {
-        font-size: 38px;
-      }
-    /* ----- */
+.service_header_left h2, .service_header_left h3 {
+    font-size: 38px;
+  }
+/* ================= */
 
-    .client__inner .client__logo .logo__area {
-        margin-bottom: 0;
-    }
+.service__work__section .title {
+    margin-top: 10px;
+}
 
-    .client__logo {
-        margin-bottom: 60px;
-    }
 
-    .testimonial__inner .boss__spec {
-        padding-top: 35px;
-    }
+.client__inner .client__logo .logo__area {
+    margin-bottom: 0;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    padding-left: 44px;
+}
 
-    .testimonial__inner .boss__spec .title h2 {
-        font-size: 36px;
-        height: 36px;
-    }
+.client__inner .client__logo {
+    padding: 16px 0px;
+}
+.client__inner .title{
+    margin-bottom: 30px;
+}
+.service_swiper_slider {
+    height: 400px !important;
+}
 
-    .testimonial__inner .boss__spec .title h4 {
-        font-size: 22px;
-        margin: 12px 0;
-    }
 
-    .testimonial__inner .boss__spec .para {
-        font-size: 17px;
-        line-height: 22px;
-    }
+.client__logo {
+    margin-bottom: 60px;
+}
 
-    .challange__section,
-     .blog__section,
-      .joboffer__section,
-       .ouroffer__section
-      {
-        margin: 100px 0;
-    }
+.testimonial__inner .boss__spec {
+    padding-top: 35px;
+}
 
-    .challange__section .our__info .address {
-        padding: 70px 0;
-    }
+.testimonial__inner .boss__spec .title h2 {
+    font-size: 36px;
+    height: 36px;
+}
 
-    .our__info .foot {
-        padding-top: 70px;
-    }
+.testimonial__inner .boss__spec .title h4 {
+    font-size: 22px;
+    margin: 12px 0;
+}
 
-    .challange__section .our__info .address h4,
-     .challange__section .our__info .contact h4 {
-        font-size: 21px;
-        line-height: 37px;
-    }
+.testimonial__inner .boss__spec .para {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.challange__section,
+ .blog__section
+  {
+    margin: 100px 0;
+}
+
+.challange__section .our__info .address {
+    padding: 70px 0;
+}
+
+.our__info .foot {
+    padding-top: 70px;
+}
+
+.challange__section .our__info .address h4,
+ .challange__section .our__info .contact h4 {
+    font-size: 21px;
+    line-height: 37px;
+}
+.challange__inner {
+    padding-top: 50px;
+}
+
+.blog__inner .title{
+    padding-bottom: 100px;
+}
+
+.blog__inner .image__section.got__padd {
+    margin-top: 20px;
+}
+
+.blog__inner .image__section{
+    margin-top: 20px;
+}
+
+.image__section__outer .content p {
+    margin: 15px 0;
+}
+
+.blog__inner .content {
+    margin-bottom: 30px;
+}
+
+.blog__inner .content:last-child{
+    margin-bottom: 0;
+}
+/* hannan */
+
+
+
+
+
+
 
     .blog__inner .title{
         padding-bottom: 100px;
@@ -669,31 +826,47 @@
 }
 
 @media screen and (max-width: 424PX) {
-    h1, h1 span {
-        font-size: 28px;
-    }
 
-    .hero__section .hero__inner span.title__span {
-        font-size: 13px;
-        line-height: 24px;
-    }
+/* hannan */
+h1, h1 span {
+    font-size: 28px;
+}
 
-    .satisfic__list .list__text p {
-        font-weight: 300;
-        font-size: 18px;
-        text-align: justify;
-    }
+.hero__section .hero__inner span.title__span {
+    font-size: 13px;
+    line-height: 24px;
+}
 
-    .challange__section .our__info .address h4, .challange__section .our__info .contact h4 {
-        font-size: 19px;
-        line-height: 37px;
-    }
+.satisfic__list .list__text p {
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+}
 
-    .testimonial__inner {
-        padding: 25px;
-    }
+.challange__section .our__info .address h4, .challange__section .our__info .contact h4 {
+    font-size: 19px;
+    line-height: 37px;
+}
 
-    .challange__section,
+.testimonial__inner {
+    padding: 25px;
+}
+
+.challange__section,
+ .blog__section
+{
+    margin: 68px 0;
+}
+
+.blog__inner .title{
+    padding-bottom: 68px;
+}
+/* hannan */
+
+
+
+
+   
      .blog__section,
       .joboffer__section,
        .ouroffer__section
@@ -762,43 +935,51 @@
 }
 
 @media screen and (max-width: 423px) {
-    .service_header_left h2, .service_header_left h3 {
-      font-size: 23px;
-    }
+    /* hannan */
+        .service_header_left h2, .service_header_left h3 {
+          font-size: 23px;
+        }
+    /* hannan */
   }
 
 @media screen and (max-width: 374PX) {
-    /* .hero__section, .kidd__section {
-        margin: 80px 0;
-    } */
+    /* hannan */
+    .hero__section {
+        padding: 80px 0;
+    }
     .hero__inner .title a {
         font-size: 18px;
     }
+    /* hannan */
 }
 
 @media screen and (max-width: 320PX) {
-    h1, h1 span {
-        font-size: 23px;
-        line-height: 37px;
-    }
+/* hannan  */
+h1, h1 span {
+    font-size: 24px;
+    line-height: 37px;
+}
 
-    .facilities__section {
-        margin: 90px 0;
-    }
+.facilities__section {
+    margin: 90px 0;
+}
 
-    .challange__section .our__info .address {
-        padding: 50px 0;
-    }
+.challange__section .our__info .address {
+    padding: 50px 0;
+}
 
-    .challange__section .our__info .address h4,
-     .challange__section .our__info .contact h4 {
-        font-size: 16px;
-        line-height: 26px;
-    }
+.challange__section .our__info .address h4,
+ .challange__section .our__info .contact h4 {
+    font-size: 16px;
+    line-height: 26px;
+}
 
-    .our__info .foot {
-        padding-top: 50px;
-    }
+.our__info .foot {
+    padding-top: 50px;
+}
+/* hannan  */
+
+
 
     .inspire__inner .accrodion__one .accordion__display__one h3,
      .inspire__inner .accrodion__two .accordion__display__two h3,

@@ -1,80 +1,84 @@
 
-  $(".common").click(function(){
-    $(".menu").toggleClass("open");
-  })
+  (function($){
+    "use strict"
+
+    $(".common").click(function(){
+      $(".menu").toggleClass("open");
+    })
 
 
 
-// owl carosel service work section
-$('.fadeOut').owlCarousel({
-  items: 1,
-  animateOut: 'fadeOut',
-  loop: true,
-  margin: 10,
-  smartSpeed: 1000,
-  dots : true,
-  dotsData :true,
-  // autoplay: true,
-  autoplayTimeout : 2000,
-  
-});
+    // owl carosel service work section
+    $('.fadeOut').owlCarousel({
+      items: 1,
+      animateOut: 'fadeOut',
+      loop: true,
+      margin: 10,
+      speed: 4000,
+      dots : true,
+      dotsData :true,
+      autoplay: true,
+      autoplayTimeout : 3000
+      
+    });
 
-// hannan miah
-var swiper = new Swiper(".mySwiper", {
-  effect: "coverflow",
-  grabCursor: true,
-  centeredSlides: true,
-  slidesPerView: "auto",
-  loop: true,
-  speed: 1000,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
-  coverflowEffect: {
-    rotate: 50,
-    stretch: 0,
-    depth: 100,
-    modifier: 1,
-    slideShadows: true,
-  },
-});
+    
 
-var swiper = new Swiper(".serviceSwiper", {
-  slidesPerView: 3,
-  spaceBetween: 30,
-  // speed: 1000,
-  // autoplay: {
-  //   delay: 2500,
-  //   disableOnInteraction: false,
-  // },
-  breakpoints: {
-    1199: {
-        slidesPerView: 3,
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    loop: true,
+    speed: 1000,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+  });
+
+  var swiper = new Swiper(".serviceSwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    speed: 1000,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      1199: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+      },
+      575: {
+        slidesPerView: 2,
         spaceBetween: 20,
-    },
-    575: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    0: {
-      slidesPerView: 1,
-      spaceBetween: 20,
-    },
-},
-
-});
-
-// testimonial swiper
-var swiper = new Swiper(".boss__swiper", {
-  pagination: {
-    el: ".swiper-pagination",
-    dynamicBullets: true,
+      },
+      0: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
   },
-});
+  
+  });
 
-// accordion section start here
-$(document).ready(function(){
+
+  
+  // testimonial swiper
+  var swiper = new Swiper(".boss__swiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+  
 
   $(".accordion__display__one").click(function(){
       $(".accordion__hidden__one").toggle("slow");
@@ -104,6 +108,12 @@ $(document).ready(function(){
 
   })
 
-})
-// accordion section start here
- 
+})(jQuery)
+
+
+
+
+
+
+
+
