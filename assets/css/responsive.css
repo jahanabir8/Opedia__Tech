@@ -1,89 +1,77 @@
-/* =======responsive start here====== */
-
-
 @media screen and (min-width: 1400px) {
-    .mission_section {
-        padding: 190px 0px 190px 288px;
-    }
-  }
+.mission_section {
+    padding: 190px 0px 190px 288px;
+}
+}
 
-
-  @media screen and (max-width: 1499px) {
-      .footer_image img {
-          width: 400px;
-      }
-  }
-
-
+@media screen and (max-width: 1499px) {
+.footer_image img {
+    width: 400px;
+}
+}
 
 @media screen and (max-width: 1399px) {
-    
-    /* hannan */
-    .hero__section {
-        padding: 150px 0;
-    }
+.hero__section {
+    padding: 150px 0;
+}
 
-    h1, h1 span{
-        font-weight: 600;
-        font-size: 52px;
-        line-height: 85px;
-    }
+h1, h1 span{
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 85px;
+}
 
-    .hero__section .hero__inner span.title__span {
-        font-size: 24px;
-        line-height: 43px;
-    }
-    /* =============== */
-    .mission_section {
-        padding: 100px 0px 100px 120px;
-    }
+.hero__section .hero__inner span.title__span {
+    font-size: 24px;
+    line-height: 43px;
+}
 
-    .service_item h2, h3 {
-        font-size: 40px;
-        font-weight: 700;
-    }
-    /* ===================== */
-    .service__work__section {
-        margin: 150px 0;
-    }
+.mission_section {
+    padding: 100px 0px 100px 120px;
+}
 
-    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-        height: 50px;
-        width: 50px;
-    }
+.service_item h2, h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
 
-    .owl-theme .owl-dots .owl-dot span {
-        height: 50px;
-        width: 50px;
-    }
-    .swiper-button-prev {
-        left: 87%;
-    }
-    /* hannan */
+.service__work__section {
+    margin: 150px 0;
+}
 
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    height: 50px;
+    width: 50px;
+}
 
+.owl-theme .owl-dots .owl-dot span {
+    height: 50px;
+    width: 50px;
+}
+.swiper-button-prev {
+    left: 87%;
+}
    
-    .ouroffer__inner .offer__banner .title h1,  .ouroffer__inner .offer__banner .title h1 a{
-        font-size: 49px;
-    }
+.ouroffer__inner .offer__banner .title h1,  .ouroffer__inner .offer__banner .title h1 a{
+    font-size: 49px;
+}
 
-    .image__part img {
-        width: 50%;
-    }
+.image__part img {
+    width: 50%;
+}
 
-    .gallery__inner .title h1{
+.gallery__inner .title h1{
     font-size: 40px;
 }
 
-    .gallery__inner .title h4 {
-        font-size: 29px;
-    }
+.gallery__inner .title h4 {
+    font-size: 29px;
+}
 }
 
 @media screen and (max-width: 1199px) {
 
 
-/* hannan */
 .hero__section {
     padding: 120px 0;
 }
@@ -103,7 +91,6 @@ h1, h1 span {
     line-height: 26px;
 }
 
-/* ============================== */
 .mission_content_section .mission_content h2 {
     font-size: 60px;
     margin-bottom: 45px;
@@ -119,7 +106,6 @@ h1, h1 span {
 .service_header_left h2, .service_header_left h3 {
     font-size: 46px;
 }
-/* ============================== */
 
 .client__inner .client__logo {
     padding-top: 100px;
@@ -158,61 +144,63 @@ h1, h1 span {
 .footer_image img {
     width: 100%;
 }
-/* hannan */
 
+.joboffer__inner .descript .content h4 {
+    margin: 0 0 30px 0;
+    font-size: 36px;
+    line-height: 54px;
+}
 
+.joboffer__inner .descript .content p {
+    font-size: 23px;
+    line-height: 36px;
+}
 
+.ouroffer__inner .offer__banner .title h1,
+    .ouroffer__inner .offer__banner .title h1 a {
+    font-size: 34px;
+    line-height: 42px;
+}
 
+.ouroffer__inner .offer__banner h1 a {
+    padding: 12px;
+}
 
+.ouroffer__inner .title h4 {
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 72px;
+    margin: 40px 0 70px;
+}
 
-    .joboffer__inner .descript .content h4 {
-        margin: 0 0 30px 0;
-        font-size: 36px;
-        line-height: 54px;
-    }
+.ouroffer__inner .opportunities .content h4 {
+    font-size: 26px;
+    line-height: 54px;
+}
 
-    .joboffer__inner .descript .content p {
-        font-size: 23px;
-        line-height: 36px;
-    }
+.ouroffer__inner .opportunities .content p {
+    margin: 40px 0 60px 0;
+    line-height: 34px;
+}
 
-    .ouroffer__inner .offer__banner .title h1,
-     .ouroffer__inner .offer__banner .title h1 a {
-        font-size: 34px;
-        line-height: 42px;
-    }
+.inspire__section {
+    padding: 80px 0;
+}
 
-    .ouroffer__inner .offer__banner h1 a {
-        padding: 12px;
-    }
+.direction-l .flag:before, .direction-r .flag:before {
+    top: 200%;
+    right: -13px;
+    width: 20px;
+    height: 20px;
+}
 
-    .ouroffer__inner .title h4 {
-        font-weight: 500;
-        font-size: 42px;
-        line-height: 72px;
-        margin: 40px 0 70px;
-    }
+.menu > ul > li a {
+    font-size: 40px;
+}
 
-    .ouroffer__inner .opportunities .content h4 {
-        font-size: 26px;
-        line-height: 54px;
-    }
-
-    .ouroffer__inner .opportunities .content p {
-        margin: 40px 0 60px 0;
-        line-height: 34px;
-    }
-
-    .inspire__section {
-        padding: 80px 0;
-    }
-
-    .direction-l .flag:before, .direction-r .flag:before {
-        top: 200%;
-        right: -13px;
-        width: 20px;
-        height: 20px;
-    }
+.open {
+    overflow-y: scroll;
+}
 }
 
 @media screen and (max-width: 1023px) {
@@ -223,8 +211,6 @@ h1, h1 span {
 
 @media screen and (max-width: 991PX) {
 
-    
-/* hannan */
 .hero__section {
     padding: 110px 0;
 }
@@ -244,18 +230,16 @@ h1, h1 span {
     line-height: 18px;
 }
 
-/* ==================== */
 .mission_section {
     padding: 100px 0px 100px 20px;
 }
 .mission_content_section .mission_content h2 {
-  font-size: 40px;
+    font-size: 40px;
 }
 .mission_content_section {
-  padding-right: 10px;
+    padding-right: 10px;
 }
 
-/* ====================== */
 
 .service__work__section {
     margin: 120px 0;
@@ -353,129 +337,132 @@ h1, h1 span {
 .testimonial_swiper_slider {
     height: 320px;
 }
-/* hannan */
 
 
+.image__section__outer .content h4 {
+    font-size: 24px;
+}
+
+.image__section__outer .content p {
+    margin: 30px 0;
+}
+
+.image__section__outer .content h4 {
+    font-size: 21px;
+}
+
+.blog__inner .title{
+    padding-bottom: 140px;
+}
+
+.joboffer__section .quate.facilities__quate.job__offer .rotate,
+    .offer__banner .quate.facilities__quate .rotate {
+    display: inline-block;
+    transform: rotate(90deg);
+    transform: none;
+}
+
+.joboffer__inner .content__disk {
+    margin: 77px 0;
+}
+
+.joboffer__inner .descript .content h4 {
+    margin: 0 0 25px 0;
+    font-size: 33px;
+    line-height: 45px;
+}
+
+.joboffer__inner .descript .content p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.ouroffer__inner .opportunities .content h4 {
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.ouroffer__inner .opportunities .content p {
+    margin: 40px 0 60px 0;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.ouroffer__inner .title h4 {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+    margin: 40px;
+}
+
+.ouroffer__inner .facilities__quate {
+    text-align: right;
+}
 
 
+.advantage__inner .title.show__once h1 {
+    display: block;
+}
 
+.advantage__inner .text__part .title.hide__once h1{
+    display: none;
+}
 
-    .image__section__outer .content h4 {
-        font-size: 24px;
+.advantage__inner .image__part img:first-child,
+    .advantage__inner .image__part img:last-child {
+    margin: 0;
     }
 
-    .image__section__outer .content p {
-        margin: 30px 0;
-    }
+.accordion__display__one, .accordion__display__two,
+.accordion__display__three,
+.accordion__display__four,
+.accordion__display__five {
+text-align: center;
+}
 
-    .image__section__outer .content h4 {
-        font-size: 21px;
-    }
+.gallery__inner .title {
+    bottom: 5%;
+}
 
-    .blog__inner .title{
-        padding-bottom: 140px;
-    }
+.gallery__inner .title h1 {
+    font-size: 31px;
+}
 
-    .joboffer__section .quate.facilities__quate.job__offer .rotate,
-     .offer__banner .quate.facilities__quate .rotate {
-        display: inline-block;
-        transform: rotate(90deg);
-        transform: none;
-    }
+.gallery__inner .title h4 {
+    font-size: 22px;
+    margin: 0;
+}
 
-    .joboffer__inner .content__disk {
-        margin: 77px 0;
-    }
+.timeline:before {
+    left: 0;
+}
 
-    .joboffer__inner .descript .content h4 {
-        margin: 0 0 25px 0;
-        font-size: 33px;
-        line-height: 45px;
-    }
+.direction-l .flag:before,
+    .direction-r .flag:before {
+    right: 0;
+    width: 20px;
+    height: 20px;
+    left: -11px;
+    border-left: 0;
+    border-top: 4px solid blue;
+    border-bottom: 0;
+    border-right: 4px solid blue;
+}
 
-    .joboffer__inner .descript .content p {
-        font-weight: 400;
-        font-size: 17px;
-        line-height: 27px;
-    }
+.menu {
+    width: 60%;
+    padding: 110px 70px;
+}
 
-    .ouroffer__inner .opportunities .content h4 {
-        font-size: 24px;
-        line-height: 35px;
-    }
+.menu_footer_text h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
 
-    .ouroffer__inner .opportunities .content p {
-        margin: 40px 0 60px 0;
-        line-height: 28px;
-        font-size: 16px;
-    }
-
-    .ouroffer__inner .title h4 {
-        font-weight: 500;
-        font-size: 38px;
-        line-height: 48px;
-        margin: 40px;
-    }
-
-    .ouroffer__inner .facilities__quate {
-        text-align: right;
-    }
-
-    
-    .advantage__inner .title.show__once h1 {
-        display: block;
-    }
-
-    .advantage__inner .text__part .title.hide__once h1{
-        display: none;
-    }
-
-    .advantage__inner .image__part img:first-child,
-     .advantage__inner .image__part img:last-child {
-        margin: 0;
-     }
-
-     .accordion__display__one, .accordion__display__two,
-      .accordion__display__three,
-       .accordion__display__four,
-        .accordion__display__five {
-        text-align: center;
-    }
-
-    .gallery__inner .title {
-        bottom: 5%;
-    }
-
-    .gallery__inner .title h1 {
-        font-size: 31px;
-    }
-
-    .gallery__inner .title h4 {
-        font-size: 22px;
-        margin: 0;
-    }
-
-    .timeline:before {
-        left: 0;
-    }
-
-    .direction-l .flag:before,
-     .direction-r .flag:before {
-        /* top: 200%; */
-        right: 0;
-        width: 20px;
-        height: 20px;
-        left: -11px;
-        border-left: 0;
-        border-top: 4px solid blue;
-        border-bottom: 0;
-        border-right: 4px solid blue;
-    }
 }
 
 @media screen and (max-width: 767PX) {
-
-/* hannan */
 .hero__section {
     padding: 88px 0;
 }
@@ -495,11 +482,9 @@ h1, h1 span {
     padding-top: 60px;
 }
 
-/* ================== */
 .service_item h2, h3 {
     font-size: 26px;
 }
-/* =================== */
 
 .owl-theme .owl-dots .owl-dot.active span,
  .owl-theme .owl-dots .owl-dot:hover span {
@@ -577,64 +562,63 @@ h1, h1 span {
 .testimonial_swiper_slider {
     height: 100%;
 }
-/* hannan */
 
+.kidd__section {
+    margin: 88px 0;
+}
 
+.blog__inner .sm-hide {
+    display: none;
+}
 
+.image__section__outer .content h4 {
+    line-height: 34px;
+}
 
-    .kidd__section {
-        margin: 88px 0;
-    }
+.joboffer__inner .descript {
+    margin-bottom: 30px;
+}
 
-    .blog__inner .sm-hide {
-        display: none;
-    }
+.ouroffer__inner .title h4 {
+    font-size: 34px;
+}
 
-    .image__section__outer .content h4 {
-        line-height: 34px;
-    }
+.advantage__inner .image__part {
+    margin-bottom: 14px;
+}
 
-    .joboffer__inner .descript {
-        margin-bottom: 30px;
-    }
+.inspire__inner .title.hide__once h1{
+    display: none;
+}
 
-    .ouroffer__inner .title h4 {
-        font-size: 34px;
-    }
+.inspire__inner .title.show__once h1 {
+    display: block;
+}
 
-    .advantage__inner .image__part {
-        margin-bottom: 14px;
-    }
+.inspire__inner .title h1.inspire__title {
+    padding-bottom: 80px;
+}
 
-    .inspire__inner .title.hide__once h1{
-        display: none;
-    }
+.kidd__section .quate,
+    .era__section .quate {
+    display: none;
+}
 
-    .inspire__inner .title.show__once h1 {
-        display: block;
-    }
+.gallery__inner .title h1 {
+    font-size: 23px;
+}
 
-    .inspire__inner .title h1.inspire__title {
-        padding-bottom: 80px;
-    }
+.gallery__inner .title h4 {
+    font-size: 16px;
+}
 
-    .kidd__section .quate,
-     .era__section .quate {
-        display: none;
-    }
+.menu {
+    width: 100%;
+}
 
-    .gallery__inner .title h1 {
-        font-size: 23px;
-    }
-
-    .gallery__inner .title h4 {
-        font-size: 16px;
-    }
 }
 
 @media screen and (max-width: 575PX) {
-    
-/* hannan */
 h1, h1 span {
     font-size: 22px;
     line-height: 46px;
@@ -646,7 +630,14 @@ h1, h1 span {
     margin: 23px 0 30px 0;
 }
 
-/* ===================== */
+.header .device__menu .menu__bar i.fa-solid.fa-bars {
+    display: none;
+}
+
+.header .device__menu {
+    justify-content: center;
+}
+
 .mission_section {
     padding: 100px 0px 100px 20px;
 }
@@ -660,7 +651,6 @@ h1, h1 span {
 .service_header_left h2, .service_header_left h3 {
     font-size: 38px;
   }
-/* ================= */
 
 .service__work__section .title {
     margin-top: 10px;
@@ -755,79 +745,87 @@ h1, h1 span {
 .blog__inner .content:last-child{
     margin-bottom: 0;
 }
-/* hannan */
+
+.blog__inner .title{
+    padding-bottom: 100px;
+}
+
+.blog__inner .image__section.got__padd {
+    margin-top: 20px;
+}
+
+.blog__inner .image__section{
+    margin-top: 20px;
+}
+
+.image__section__outer .content p {
+    margin: 15px 0;
+}
+
+.blog__inner .content {
+    margin-bottom: 30px;
+}
+
+.blog__inner .content:last-child{
+    margin-bottom: 0;
+}
+
+.ouroffer__inner .opportunities .content p {
+    margin: 40px 0;
+    font-size: 20px;
+}
+
+.inspire__inner .accrodion__one .accordion__display__one h3,
+    .inspire__inner .accrodion__two .accordion__display__two h3,
+    .inspire__inner .accrodion__three .accordion__display__three h3,
+    .inspire__inner .accrodion__four .accordion__display__four h3,
+    .inspire__inner .accrodion__five .accordion__display__five h3 {
+    font-size: 27px;
+}
+
+.accrodion__one,
+    .accrodion__two,
+    .accrodion__three,
+    .accrodion__four,
+    .accrodion__five {
+    padding: 20px;
+    margin: 5px 0;
+}
+
+.inspire__inner .inspire__img {
+    text-align: center;
+}
+
+.android__kidd .title p {
+    font-size: 22px;
+    line-height: 50px;
+}
 
 
+.gallery__inner .title {
+    left: 33%;
+    transform: translate(-25%);
+}
 
+.menu > ul > li a {
+    font-size: 30px;
+}
 
+.menu {
+    padding: 50px;
+}
 
+.submenu__inner {
+    left: 43%;
+}
 
+.submenu__top {
+    display: block;
+  }
 
-    .blog__inner .title{
-        padding-bottom: 100px;
-    }
-
-    .blog__inner .image__section.got__padd {
-        margin-top: 20px;
-    }
-
-    .blog__inner .image__section{
-        margin-top: 20px;
-    }
-
-    .image__section__outer .content p {
-        margin: 15px 0;
-    }
-
-    .blog__inner .content {
-        margin-bottom: 30px;
-    }
-
-    .blog__inner .content:last-child{
-        margin-bottom: 0;
-    }
-
-    .ouroffer__inner .opportunities .content p {
-        margin: 40px 0;
-        font-size: 20px;
-    }
-
-    .inspire__inner .accrodion__one .accordion__display__one h3,
-     .inspire__inner .accrodion__two .accordion__display__two h3,
-      .inspire__inner .accrodion__three .accordion__display__three h3,
-       .inspire__inner .accrodion__four .accordion__display__four h3,
-        .inspire__inner .accrodion__five .accordion__display__five h3 {
-        font-size: 27px;
-    }
-
-    .accrodion__one,
-     .accrodion__two,
-      .accrodion__three,
-       .accrodion__four,
-        .accrodion__five {
-        padding: 20px;
-        margin: 5px 0;
-    }
-
-    .inspire__inner .inspire__img {
-        text-align: center;
-    }
-
-    .android__kidd .title p {
-        font-size: 22px;
-        line-height: 50px;
-    }
-
-
-    .gallery__inner .title {
-        left: 33%;
-        transform: translate(-25%);
-    }
 }
 
 @media screen and (max-width: 424PX) {
-
-/* hannan */
 h1, h1 span {
     font-size: 28px;
 }
@@ -843,7 +841,8 @@ h1, h1 span {
     text-align: justify;
 }
 
-.challange__section .our__info .address h4, .challange__section .our__info .contact h4 {
+.challange__section .our__info .address h4,
+ .challange__section .our__info .contact h4 {
     font-size: 19px;
     line-height: 37px;
 }
@@ -861,100 +860,104 @@ h1, h1 span {
 .blog__inner .title{
     padding-bottom: 68px;
 }
-/* hannan */
 
+    .blog__section,
+    .joboffer__section,
+    .ouroffer__section
+{
+    margin: 68px 0;
+}
 
+.blog__inner .title{
+    padding-bottom: 68px;
+}
 
+.joboffer__inner .descript .content h4 {
+    margin: 0 0 19px 0;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+}
 
-   
-     .blog__section,
-      .joboffer__section,
-       .ouroffer__section
-    {
-        margin: 68px 0;
-    }
+.joboffer__inner .descript .content p {
+    line-height: 24px;
+}
 
-    .blog__inner .title{
-        padding-bottom: 68px;
-    }
+.joboffer__inner .descript .content h4 {
+    margin: 0 0 13px 0;
+}
 
-    .joboffer__inner .descript .content h4 {
-        margin: 0 0 19px 0;
-        font-size: 30px;
-        line-height: 42px;
-        text-align: center;
-    }
+.accordion__display__one h3.font,
+    .accordion__display__two h3.font,
+    .accordion__display__three h3.font,
+    .accordion__display__four h3.font {
+    font-size: 14px !important;
+}
 
-    .joboffer__inner .descript .content p {
-        line-height: 24px;
-    }
+.accrodion__one .accordion__display__one h3 span,
+    .accrodion__two .accordion__display__two h3 span,
+    .accrodion__three .accordion__display__three h3 span,
+    .accrodion__four .accordion__display__four h3 span {
+    padding: 7px;
+    width: 37px;
+}
 
-    .joboffer__inner .descript .content h4 {
-        margin: 0 0 13px 0;
-    }
+.accrodion__one,
+    .accrodion__two,
+    .accrodion__three,
+    .accrodion__four {
+    padding: 20px;
+    margin: 0;
+}
 
-    .accordion__display__one h3.font,
-     .accordion__display__two h3.font,
-      .accordion__display__three h3.font,
-       .accordion__display__four h3.font {
-        font-size: 14px !important;
-    }
+.accordion__hidden__one p,
+    .accordion__hidden__two p,
+    .accordion__hidden__three p,
+    .accrodion__hidden__four p {
+    font-size: 14px;
+}
 
-    .accrodion__one .accordion__display__one h3 span,
-     .accrodion__two .accordion__display__two h3 span,
-      .accrodion__three .accordion__display__three h3 span,
-       .accrodion__four .accordion__display__four h3 span {
-        padding: 7px;
-        width: 37px;
-    }
+.android__kidd .title p {
+    font-size: 22px;
+    line-height: 37px;
+}
 
-    .accrodion__one,
-     .accrodion__two,
-     .accrodion__three,
-     .accrodion__four {
-        padding: 20px;
-        margin: 0;
-    }
+.gallery__inner .title {
+    left: 23%;
+    transform: translate(-17%);
+}
 
-    .accordion__hidden__one p,
-     .accordion__hidden__two p,
-     .accordion__hidden__three p,
-     .accrodion__hidden__four p {
-        font-size: 14px;
-    }
+.menu_footer_text h3 {
+    font-size: 22px;
+}
 
-    .android__kidd .title p {
-        font-size: 22px;
-        line-height: 37px;
-    }
+.menu_footer_text h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
 
-    .gallery__inner .title {
-        left: 23%;
-        transform: translate(-17%);
-    }
+.menu_footer_socialIcon > ul{
+    padding: 0;
+}
+
 }
 
 @media screen and (max-width: 423px) {
-    /* hannan */
-        .service_header_left h2, .service_header_left h3 {
-          font-size: 23px;
-        }
-    /* hannan */
-  }
+    .service_header_left h2, .service_header_left h3 {
+        font-size: 23px;
+    }
+}
 
 @media screen and (max-width: 374PX) {
-    /* hannan */
-    .hero__section {
-        padding: 80px 0;
-    }
-    .hero__inner .title a {
-        font-size: 18px;
-    }
-    /* hannan */
+.hero__section {
+    padding: 80px 0;
+}
+.hero__inner .title a {
+    font-size: 17px;
+}
 }
 
 @media screen and (max-width: 320PX) {
-/* hannan  */
 h1, h1 span {
     font-size: 24px;
     line-height: 37px;
@@ -977,30 +980,31 @@ h1, h1 span {
 .our__info .foot {
     padding-top: 50px;
 }
-/* hannan  */
 
+.inspire__inner .accrodion__one .accordion__display__one h3,
+    .inspire__inner .accrodion__two .accordion__display__two h3,
+    .inspire__inner .accrodion__three .accordion__display__three h3,
+    .inspire__inner .accrodion__four .accordion__display__four h3,
+    .inspire__inner .accrodion__five .accordion__display__five h3 {
+    font-size: 24px;
+}
 
+.inspire__inner .title h1.inspire__title {
+    font-size: 40px;
+}
 
-    .inspire__inner .accrodion__one .accordion__display__one h3,
-     .inspire__inner .accrodion__two .accordion__display__two h3,
-      .inspire__inner .accrodion__three .accordion__display__three h3,
-       .inspire__inner .accrodion__four .accordion__display__four h3,
-        .inspire__inner .accrodion__five .accordion__display__five h3 {
-        font-size: 24px;
-    }
+.gallery__inner .title {
+    left: 11%;
+    transform: translate(-6%);
+}
 
-    .inspire__inner .title h1.inspire__title {
-        font-size: 40px;
-    }
+.menu > ul > li {
+    padding-bottom: 0;
+}
 
-    .gallery__inner .title {
-        left: 11%;
-        transform: translate(-6%);
-    }
-
-
+.submenu__inner {
+    left: 41%;
 }
 
 
-
-/* =======responsive end here====== */
+}

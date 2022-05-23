@@ -304,6 +304,76 @@ hero section end here
 ========================================= */
 
 
+/* =======================================
+        submenu section start here
+==========================================*/
+.submenu__top {
+  position: fixed;
+  width: 100%;
+  top: 93%;
+  left: 0;
+  z-index: 9;
+  transition: 0.6s;
+  display: none;
+}
+
+/* .submenu__top.show{
+  bottom: 30px;
+  top: 93%;
+  pointer-events: auto;
+} */
+
+.submenu__section {
+  padding: 34px 12px 30px;
+  background: #d5d4d4;
+  position: relative;
+}
+
+.submenu__inner {
+  position: absolute;
+  left: 47%;
+  top: -36px;
+  cursor: pointer;
+}
+
+.submenu__icon {
+  background: linear-gradient(91.57deg, #0057FF 48.67%, #39C1DF 76.12%);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: block;
+  padding: 17px;
+}
+ 
+.submenu__inner .submenu__icon span {
+  background-color: #fff;
+  display: block;
+  margin-bottom: 10px;
+  height: 5px;
+  border-radius: 25%;
+  margin: 7px auto;
+
+}
+
+.submenu__inner .submenu__icon span:nth-child(1) {
+  width: 14px;
+}
+
+.submenu__inner .submenu__icon span:nth-child(2) {
+  width: 24px;
+}
+
+.submenu__inner .submenu__icon span:last-child {
+  width: 30px;
+}
+
+
+
+/* =======================================
+        submenu section end here
+==========================================*/
+
+
  
 
 /* ===================================
@@ -1084,6 +1154,60 @@ input.footer_email {
 
 /* ========advantege section start here======== */
 
+
+
+/* DH  */
+
+
+.title.hide__once h1 {color: #fff;}
+
+
+.accordian-item h3 {font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 48px;color: rgba(255, 255, 255, 1);}
+
+.accordian-custom h3 span {height: 48px;width: 48px;border: 1px solid #Fff;display: inline-block;text-align: center;border-radius: 50%;font-size: 18px;margin-right: 40px;}
+
+.title.hide__once {margin-bottom: 80px;}
+.accordian-custom1 h3 span {height: 48px;width: 48px;border: 1px solid #Fff;display: inline-block;text-align: center;border-radius: 50%;font-size: 18px;margin-right: 40px;}
+.accordian-details p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-left: 96px;
+    margin-top: 17px;
+}
+
+
+.advantage__section .career {font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 400px;
+    line-height: 600px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.3;position: absolute;top: -152px;right: 0;}
+    
+    .advantage__section .career2 {font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 400px;
+        line-height: 600px;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.3;
+        position: absolute;
+        left: 0;bottom: -157px;}
+/* DH  */
+
+
+
+
 .advantage__inner .title.show__once h1,
   .inspire__inner .title.show__once h1{
 
@@ -1094,7 +1218,7 @@ input.footer_email {
 }
 
 /* ----accordion----- */
-.accordion{
+/* .accordion{
     text-align: -webkit-center;
 }
 
@@ -1189,8 +1313,24 @@ input.footer_email {
     justify-content: space-between;
     align-items: center;
     text-align: left;
-}
+} */
 /* ----accordion end----- */
+
+
+/* dh */
+#accordian_details_one{
+  opacity: 0;
+}
+.accordian-details{
+  opacity: 0;
+}
+
+.advantage__section {
+  padding: 170px 0 120px;
+  position: relative;
+  overflow: hidden;
+}
+/* dh */
 
 .advantage__inner .image__part {
     display: flex;
@@ -1234,6 +1374,10 @@ input.footer_email {
     font-size: 28px;
     line-height: 42px;
     text-align: justify;
+}
+
+.joboffer__inner .image__section img {
+  width: 100%;
 }
 
 .ouroffer__section { 
@@ -1453,6 +1597,21 @@ input.footer_email {
 /* ============================================
             agency page start here
 ===============================================*/
+
+/* =====era section start here===== */
+/* Image animation */
+.image-animation {
+  position: relative;
+}
+
+.image-animation img {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+/* =====era section start here===== */
+
+
 
 /* =====gallery section start here===== */
 .gallery__section{
@@ -1775,6 +1934,25 @@ ul.timeline img {
   width: 100%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* =====agency story section end here===== */
 
 
@@ -1862,3 +2040,6 @@ ul.timeline img {
 /* ============================================
           agency page end here
 ===============================================*/
+
+
+

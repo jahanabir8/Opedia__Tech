@@ -4,6 +4,7 @@
 
     $(".common").click(function(){
       $(".menu").toggleClass("open");
+
     })
 
 
@@ -109,6 +110,140 @@
   })
 
 })(jQuery)
+
+
+
+// // nav bar sticky
+// $(window).scroll(function(){
+//   // sticky navbar on scroll script
+
+//   // scroll-up button show/hide script
+//   if(this.scrollY > 400){
+//       $('.submenu__top').addClass("show");
+//   }else{
+//       $('.submenu__top').removeClass("show");
+//   }
+// });
+
+
+
+
+
+
+
+
+// dh
+
+
+
+$(document).ready(function(){
+
+  gsap.registerPlugin(ScrollTrigger)
+  gsap.from(".advantage__inner .image__part img:first-child", {
+  opacity: 0, 
+  y: -200, 
+  duration: 3,
+  scrollTrigger: {
+      trigger: ".advantage__section",
+          toggleActions:'restart none none none',
+          start: 'top 70%',
+  }
+  })
+  gsap.from(".advantage__inner .image__part img:last-child", {
+  opacity: 0, 
+  y: 200, 
+  duration: 3,
+  scrollTrigger: {
+      trigger: ".advantage__section",
+          toggleActions:'restart none none none',
+          start: 'top 70%',
+  }
+  })
+  
+  // career page
+  gsap.fromTo(".advantage__section .career", {
+  opacity: 0.2, 
+  x: -1000, 
+  duration: 3,
+  },{ opacity: 0.3, 
+  x: 2000,
+  duration: 3,
+  scrollTrigger: {
+      trigger: ".advantage__section",
+          toggleActions:'restart none none none',
+          start: 'top 70%',
+  }
+})
+gsap.fromTo(".advantage__section .career2", {
+  opacity: 0.2, 
+  x: 1000, 
+  duration: 3,
+  },{ opacity: 0.3, 
+  x: -2000,
+  duration: 3,
+  scrollTrigger: {
+      trigger: ".advantage__section",
+          toggleActions:'restart none none none',
+          start: 'top 70%',
+  }
+})
+  var tl = gsap.timeline({repeat: -1});
+  gsap.from(".accordian-wrapping", {
+  opacity: 0, 
+  y: 300, 
+  duration: 3,
+  scrollTrigger: {
+      trigger: ".advantage__section",
+          toggleActions:'restart none none none',
+          start: 'top 70%',
+  }
+  })
+  
+  tl.fromTo("#accordian_details_one",{opacity:1, duration: 3}, {opacity:0, duration: 3})
+      .to("#accordian_item_two",{y:-50, duration:2},'-=2')
+      .to("#accordian_details_two",{opacity:1, duration: 2.5},"<=1")
+      .to("#accordian_details_two",{opacity:0, duration: 2})
+      .to("#accordian_item_three",{y:-105, duration:2},'-=2')
+      .to("#accordian_details_three",{opacity:1, duration: 2},"<=1")
+      .to("#accordian_details_three",{opacity:0, duration: 1})
+      .to("#accordian_item_four",{y:-160, duration:2},'-=2')
+      .to("#accordian_details_four",{opacity:1, duration: 1},"<=1")
+      .to("#accordian_details_four",{opacity:0, duration: 1})
+      .to("#accordian_details_one", {opacity:1, duration: 2})
+      .to("#accordian_item_two",{y:0, duration:2},"<")
+      .to("#accordian_item_three",{y:0, duration:2},"<")
+      .to("#accordian_item_four",{y:0, duration:2},"<")
+
+      // Image Animation
+
+      var ImageAnimate = gsap.timeline({repeat:-1});
+      ImageAnimate.fromTo(".slide-img",{scale:.3,duration:2,x:200,y:300,zIndex:1}, {scale:.5, duration:2,x:100,y:200,zIndex:10},"<") //main
+            .fromTo('.slide-img1',{scale:.5, duration:2,x:100,y:200,zIndex:2},{scale:1,x:-100,y:0,duration:2,zIndex:11},"<")
+            .fromTo('.slide-img2',{scale:1,duration:2,x:-100,y:0},{scale:.3,duration:2,x:200,y:300},"<")
+            .to('.slide-img',{scale:1,duration:2,x:-100,y:0}) //main1
+            .to('.slide-img1',{scale:.3,duration:2, x:200, y:300,zIndex:3},"<")
+            .to('.slide-img2',{scale:.5, duration:2,x:100,y:200,zIndex:5},"<") 
+            .to('.slide-img',{scale:.3,duration:2, x:200,y:300,zIndex:1}) //main0
+            .to('.slide-img2',{scale:1,duration:2,x:-100,y:0},"<")
+            .to('.slide-img1',{scale:.5, duration:2,x:100,y:200},"<")
+
+      if (window.matchMedia("(max-width: 575px)").matches) {
+        var smallDevice = gsap.timeline({repeat:-1});
+        smallDevice.fromTo(".slide-img",{scale:.3,duration:2,x:150,y:300,zIndex:1}, {scale:.5, duration:2,x:100,y:200,zIndex:10},"<") //main
+              .fromTo('.slide-img1',{scale:.5, duration:2,x:100,y:200,zIndex:2},{scale:.7,x:-50,y:0,duration:2,zIndex:11},"<")
+              .fromTo('.slide-img2',{scale:.7,duration:2,x:-50,y:0},{scale:.3,duration:2,x:150,y:300},"<")
+              .to('.slide-img',{scale:.7,duration:2,x:-50,y:0}) //main1
+              .to('.slide-img1',{scale:.3,duration:2, x:150, y:300,zIndex:3},"<")
+              .to('.slide-img2',{scale:.5, duration:2,x:100,y:200,zIndex:5},"<") 
+              .to('.slide-img',{scale:.3,duration:2, x:150,y:300,zIndex:1}) //main0
+              .to('.slide-img2',{scale:.7,duration:2,x:-50,y:0},"<")
+              .to('.slide-img1',{scale:.5, duration:2,x:100,y:200},"<")
+      } 
+    
+})
+
+
+// dh
 
 
 
