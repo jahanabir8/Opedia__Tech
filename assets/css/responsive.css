@@ -70,6 +70,7 @@ h1, h1 span{
 }
 
 @media screen and (max-width: 1199px) {
+    
 
 
 .hero__section {
@@ -201,6 +202,11 @@ h1, h1 span {
 .open {
     overflow-y: scroll;
 }
+
+.agency__story__section {
+    margin-top: 200px;
+}
+
 }
 
 @media screen and (max-width: 1023px) {
@@ -414,13 +420,7 @@ h1, h1 span {
     margin: 0;
     }
 
-.accordion__display__one, .accordion__display__two,
-.accordion__display__three,
-.accordion__display__four,
-.accordion__display__five {
-text-align: center;
-}
-
+ 
 .gallery__inner .title {
     bottom: 5%;
 }
@@ -460,11 +460,18 @@ text-align: center;
     font-weight: 400;
 }
 
+.footer__inner p {
+    margin-bottom: 30px;
+}
+
 }
 
 @media screen and (max-width: 767PX) {
+    .agency__story__section {
+        margin-top: 100px;
+    }
 .hero__section {
-    padding: 88px 0;
+    padding: 88px 0 0px;
 }
 
 h1, h1 span {
@@ -596,9 +603,12 @@ h1, h1 span {
 }
 
 .inspire__inner .title h1.inspire__title {
-    padding-bottom: 80px;
+    padding-bottom: 0px;
 }
 
+.title.hide__once {
+    display: none;
+}
 .kidd__section .quate,
     .era__section .quate {
     display: none;
@@ -793,14 +803,20 @@ h1, h1 span {
 }
 
 .inspire__inner .inspire__img {
-    text-align: center;
+    text-align: start;
+    padding-left: 25px;
 }
 
 .android__kidd .title p {
     font-size: 22px;
     line-height: 50px;
+   
 }
-
+.accordion {
+    text-align: -webkit-center;
+    padding-left: 8px;
+}
+ 
 
 .gallery__inner .title {
     left: 33%;
@@ -822,6 +838,23 @@ h1, h1 span {
 .submenu__top {
     display: block;
   }
+
+.footer_main_class {
+    margin-bottom: 90px;
+}
+.android__kidd {
+    text-align: center;
+}   
+.kidd__title {
+    display: block;
+}
+.era__inner .title 
+{
+    margin-top: 300px;
+}
+.image-animation {
+    padding: 0px 50px;
+}
 
 }
 

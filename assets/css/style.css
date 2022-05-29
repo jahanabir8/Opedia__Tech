@@ -1218,106 +1218,7 @@ line-height: 48px;color: rgba(255, 255, 255, 1);}
     text-align: center;
     color: #fff;
 }
-
-/* ----accordion----- */
-/* .accordion{
-    text-align: -webkit-center;
-}
-
-.accrodion__one .accordion__display__one h3,
- .accrodion__two .accordion__display__two h3,
-  .accrodion__three .accordion__display__three h3,
-   .accrodion__four .accordion__display__four h3,
-    .accrodion__five .accordion__display__five h3 {
-    font-size: 20px;
-}
-
-
-.inspire__inner .accrodion__one .accordion__display__one h3,
- .inspire__inner .accrodion__two .accordion__display__two h3,
-  .inspire__inner .accrodion__three .accordion__display__three h3,
-   .inspire__inner .accrodion__four .accordion__display__four h3,
-    .inspire__inner .accrodion__five .accordion__display__five h3 {
-    font-size: 40px;
-    font-weight: 500;
-}
-
-.accrodion__one .accordion__display__one h3 span,
- .accrodion__two .accordion__display__two h3 span,
-  .accrodion__three .accordion__display__three h3 span,
-   .accrodion__four .accordion__display__four h3 span,
-    .accrodion__five .accordion__display__five h3 span {
-    background-color: transparent;
-    padding: 10px;
-    display: inline-block;
-    border-radius: 50%;
-    width: 45px;
-    border: 2px solid #fff;
-    margin-right: 10px;
-    text-align: center;
-}
-
-.advantage__inner .text__part .title h1,
- .advantage__inner .text__part .accordion__display__one h3,
-  .advantage__inner .text__part .accordion__display__two h3,
-   .advantage__inner .text__part .accordion__display__three h3,
-    .advantage__inner .text__part .accordion__display__four h3,
-     .advantage__inner .text__part .accordion__display__five h3,
-      .advantage__inner .text__part .accordion__hidden__one p,
-       .advantage__inner .text__part .accordion__hidden__two p,
-        .advantage__inner .text__part .accordion__hidden__three p,
-         .advantage__inner .text__part .accordion__hidden__four p,
-          .advantage__inner .text__part .accordion__hidden__five p
-           {
-    color: #fff;
-}
-
-.accrodion__one,
- .accrodion__two,
-  .accrodion__three,
-   .accrodion__four, 
-    .accrodion__five
-    {
-    padding: 20px;
-    margin: 30px 0;
-}
-
-.accordion__hidden__one,
- .accordion__hidden__two,
-  .accordion__hidden__three,
-   .accordion__hidden__four,
-    .accordion__hidden__five
-    {
-    display: none;
-}
-
-.accordion__hidden__one p,
- .accordion__hidden__two p,
-  .accordion__hidden__three p,
-    .accrodion__hidden__four p,
-     .accrodion__hidden__five p
-  {
-    font-size: 18px;
-    color: #fff;
-    margin-top: 20px;
-    text-align: justify;
-}
-
-.accordion__display__one,
- .accordion__display__two,
-  .accordion__display__three,
-    .accordion__display__four,
-     .accordion__display__five
-   {
-    cursor: pointer;
-    position: relative;
-    font-weight: bold;
-    justify-content: space-between;
-    align-items: center;
-    text-align: left;
-} */
-/* ----accordion end----- */
-
+ 
 
 /* dh */
 #accordian_details_one{
@@ -1347,6 +1248,9 @@ line-height: 48px;color: rgba(255, 255, 255, 1);}
     margin: 20px 0 137px 0;
 }
 
+.hero__section.career_hero {
+  padding: 35px 0px 145px !important;
+}
 /* ========advantege section end here======== */
 
 .title.career__page a::after {
@@ -1355,6 +1259,9 @@ line-height: 48px;color: rgba(255, 255, 255, 1);}
 
 .joboffer__section {
     margin: 200px 0px;
+}
+.joboffer__section .descript {
+  padding-right: 50px;
 }
 
 .joboffer__inner .content__disk {
@@ -1383,7 +1290,7 @@ line-height: 48px;color: rgba(255, 255, 255, 1);}
 }
 
 .ouroffer__section { 
-    margin: 200px;
+    margin: 200px 0px;
 }
 
 .ouroffer__inner .facilities__quate {
@@ -1445,7 +1352,7 @@ line-height: 48px;color: rgba(255, 255, 255, 1);}
   position: absolute;
   content: "";
   height: 100%;
-  width: 15%;
+  width: 22%;
   left: 0;
   bottom: 0;
   z-index: -1;
@@ -1724,7 +1631,7 @@ line-height: 48px;color: rgba(255, 255, 255, 1);}
 .direction-l .flag:before, .direction-r .flag:before {
   position: absolute;
   top: 100%;
-  right: -89px;
+  right: -92px;
   content: ' ';
   display: block;
   width: 70px;
@@ -1746,7 +1653,7 @@ line-height: 48px;color: rgba(255, 255, 255, 1);}
 }
 
 .direction-r .flag:before {
-  left: -89px;
+  left: -91px;
 }
 
 
