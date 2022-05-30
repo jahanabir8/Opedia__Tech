@@ -522,6 +522,7 @@ hero section end here
   .service_section {
     padding: 120px 0px 0px;
   }
+
   
   
   /* ===================================
@@ -826,7 +827,7 @@ span.expert_active {
   padding-top: 130px;
 }
 .challange__section {
-  margin: 110px 0;
+  margin-top: 110px;
 }
 
 .challange__section .our__info .address {
@@ -911,15 +912,6 @@ input.footer_email {
 }
  
 /* =====footer section end here */
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1072,18 +1064,115 @@ input.footer_email {
 }
 
 .inspire__inner h1 span.stroke__white{
-      /* -webkit-text-fill-color: #000; */
-      /* -webkit-text-stroke-width: 2px; */
-      /* -webkit-text-stroke: 2px transparent; */
       -webkit-text-stroke-color: #fff;
 }
 
 .inspire__inner .inspire__img {
   text-align: right;
 }
+
 /* =====inspire section end here===== */
+
+
+/* =====achievement section start here===== */
+.achievement__section {
+  margin: 100px 0;
+}
+
+.achievement__content{
+  background-image: linear-gradient(rgb(255 255 255 / 70%),rgb(255 255 255 / 94%)),url(../image/banner/achievement__bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.achievement__inner .title h1 {
+  color: #595959;
+  text-align: center;
+}
+
+.achievement__content .content p,
+ .approach__content p,
+ .ethic__prac .content .para p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  color: #3F3F3F;
+  margin: 0;
+}
+
+.achievement__content .content p:first-child,
+ .approach__content p,
+  .ethic__prac .content .para p:first-child{
+  margin-bottom: 2rem;
+}
+
+.achievement__content {
+  padding: 64px 0 64px 32px;
+  margin-top: 32px;
+}
+
+.achievement__content .image__section img {
+  width: 100%;
+}
+/* =====achievement section start here===== */
+
+/* =====approach section start here===== */
+.approach__section{
+  background-image: url(../image/banner/approach__bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 48px 0 55px;
+}
+
+.approach__content p{
+  color: #fff;
+}
+
+.approach__inner .show__once {
+  display: none;
+}
+
+
+/* =====approach section end here===== */
+
+/* =====ethical section start here===== */
+.ethical__inner {
+  padding: 100px 0;
+}
+
+.ethical__inner .ethics {
+  margin-bottom: 100px;
+}
+
+.ethic__prac .content h1 {
+  margin-bottom: 40px;
+}
+
+.ethic__prac .content h1.last-child {
+  margin: 20px 0;
+}
+
+.ethic__prac > .content > .para {
+  margin-bottom: 20px;
+}
+
+.ethic__prac .content h1 span {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.ethical__inner .image__section img {
+  width: 100%;
+}
+
+
+
+/* =====ethical section end here===== */
 /* ===========================================
-          service page start here
+          service page end here
 ==============================================*/
 
 

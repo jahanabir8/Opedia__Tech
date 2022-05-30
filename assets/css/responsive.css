@@ -188,6 +188,22 @@ h1, h1 span {
     padding: 80px 0;
 }
 
+.approach__inner .hide__once {
+    display: none;
+}
+
+.approach__inner .show__once {
+    display: block;
+  }
+  
+  .approach__inner .show__once h1 {
+    margin: 20px 0;
+  }
+
+.achievement__content {
+    padding: 64px 0 64px 20px;
+}
+
 .direction-l .flag:before, .direction-r .flag:before {
     top: 200%;
     right: -13px;
@@ -289,10 +305,14 @@ h1, h1 span {
     line-height: 20px;
 }
 
-.challange__section,
+/* .challange__section, */
  .blog__section {
     margin: 140px 0;
 }
+
+.challange__section {
+    margin-top: 0;
+  }
 
 .challange__section .our__info .address {
     padding: 110px 0 70px;
@@ -606,6 +626,18 @@ h1, h1 span {
     padding-bottom: 0px;
 }
 
+.ethical__inner .ethics {
+    margin-bottom: 50px;
+}
+
+.achievement__content {
+    padding: 64px 0 64px;
+}
+
+.achievement__content .content {
+  padding: 0 20px;
+}
+
 .title.hide__once {
     display: none;
 }
@@ -805,6 +837,10 @@ h1, h1 span {
 .inspire__inner .inspire__img {
     text-align: start;
     padding-left: 25px;
+}
+
+.ethic__prac .content h1 span {
+    font-size: 30px;
 }
 
 .android__kidd .title p {
