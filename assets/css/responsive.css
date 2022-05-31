@@ -658,6 +658,10 @@ h1, h1 span {
     width: 100%;
 }
 
+.web__inner img.header__logo, .dive__quate .quate.service_quate {
+    display: none;
+}
+
 }
 
 @media screen and (max-width: 575PX) {
@@ -1009,6 +1013,10 @@ h1, h1 span {
     padding: 0;
 }
 
+.information p.opedee {
+    font-size: 20px;
+}
+
 }
 
 @media screen and (max-width: 423px) {
@@ -1075,5 +1083,12 @@ h1, h1 span {
     left: 41%;
 }
 
+.information ul li {
+    font-size: 16px;
+}
+
+.information ul li span:first-child {
+    width: 35%;
+}
 
 }

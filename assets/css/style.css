@@ -242,7 +242,8 @@ h1 span{
 
 .hero__inner .title a,
  .service__work__inner .title a,
-  .kidd__inner .title a{
+  .kidd__inner .title a,
+   .web__inner a.service__page{
     position: relative;
     font-weight: 500;
     font-size: 24px;
@@ -259,7 +260,8 @@ h1 span{
 
 .hero__inner .title a::after,
  .service__work__inner .title a::after,
-  .kidd__inner .title a::after {
+  .kidd__inner .title a::after,
+   .web__inner a.service__page::after {
     position: absolute;
     content: "";
     height: 100%;
@@ -272,26 +274,31 @@ h1 span{
     border-radius: 3px;
 }
 
-.service__work__inner .title a::after {
+.service__work__inner .title a::after   {
     width: 33%;
 }
-.title a span{
+
+.web__inner a.service__page::after{
+  width: 28%;
+}
+
+.title a span,
+ .web__inner a.service__page span{
     color: #fff;
 }
 .hero__inner .title a:hover,
  .service__work__inner .title a:hover,
   .hero__inner .title a:hover::after,
-   .kidd__inner .title a:hover::after{
+   .kidd__inner .title a:hover::after,
+     .web__inner a.service__page:hover::after{
     color: #fff;
 }
 .hero__inner .title a:hover::after,
  .service__work__inner .title a:hover::after,
   .hero__inner .title a:hover::after,
-   .kidd__inner .title a:hover::after{
+   .kidd__inner .title a:hover::after,  .web__inner a.service__page:hover::after{
     width: 100%;
 }
-
-
 
 /* .giffy img {
     width: 100%;
@@ -2103,4 +2110,159 @@ ul.timeline img {
 ===============================================*/
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* ===============================================
+        ope serve page start here
+==================================================*/
+.banner__footer .list {
+  color: #2B2B2B;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+  
+.banner__footer .list a {
+    color: #2B2B2B;
+    text-decoration: none;
+  }
+  
+.banner__footer .list span.coloradd {
+    background: linear-gradient(91.57deg, #0057FF 48.67%, #39C1DF 76.12%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+
+.web__design {
+  padding: 83px 0;
+}
+
+.web__inner .image__section img{
+  width: 100%;
+}
+
+.info .content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  color: #3F3F3F;
+  margin: 16px 0 48px;
+}
+
+.web__inner .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.information ul {
+  padding: 0;
+  margin: 0;
+}
+
+.information ul li {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.information ul li span.first-child {
+  width: 36%;
+  display: inline-block;
+}
+
+.information ul li span.last-child {
+  width: 70%;
+}
+
+.information p.opedee {font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: justify;
+  color: #3F3F3F;
+  margin: 40px 0 48px;
+}
+  
+  .information p.opedee span {
+    background: linear-gradient(91.57deg, #0057FF 48.67%, #39C1DF 76.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.dive__quate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dive__quate .quate.service_quate {
+  margin: 0;
+}
+
+/* =====web development section start here===== */
+.information.web__dev ul li {
+  text-align: right;
+}
+/* =====web development section end here===== */
+
+/* ===============================================
+        ope serve page end here
+==================================================*/
+
+.modal-dialog {
+  background: #fff !important;
+  max-width: 62% !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  /* padding: 64px !important; */
+  position: relative;
+  width: auto;
+  pointer-events: none;
+}
+
+.modal-box{
+  background-color: rgb(255, 255, 255);
+  padding: 64px;
+}
+
+
+.modal-img {
+  width: 100%;
+}
+
+.model-date {
+  font-weight: 500;
+  font-size: 24px !important;
+  color: #3F3F3F !important;
+  margin-top: 24px !important;
+}
+
+.model-title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  color: #3F3F3F;
+}
+
+.model-dis {
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: justify;
+  color: #000000;
+  margin-top: 24px;
+}
 
