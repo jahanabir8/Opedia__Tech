@@ -525,6 +525,10 @@ hero section end here
   .swiper-slide:nth-child(1) .service_item img{
     margin: 24px auto; 
   }
+
+  .service_inner a.software__service__swiper {
+    text-decoration: none;
+}
   
   .service_section {
     padding: 120px 0px 0px;
@@ -1203,6 +1207,7 @@ input.footer_email {
 
 .image__section.for__blog {
   overflow: hidden;
+  cursor: pointer;
 }
 
 .blog__inner .image__section.clip__path img {
@@ -1229,7 +1234,9 @@ input.footer_email {
 .image__section__outer .content h4 {
   font-weight: 500;
   font-size: 32px;
-  line-height: 48px;color: #3F3F3F;
+  line-height: 48px;
+  color: #3F3F3F;
+  cursor: pointer;
 }
 
 .giffy img {
@@ -2172,19 +2179,18 @@ ul.timeline img {
 .information ul li {
   font-weight: 500;
   font-size: 20px;
-  line-height: 30px;
-  text-align: justify;
   margin-bottom: 20px;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .information ul li span.first-child {
-  width: 36%;
-  display: inline-block;
+  width: 250px;
 }
 
 .information ul li span.last-child {
-  width: 70%;
+  width: calc(100% - 250px);
 }
 
 .information p.opedee {font-weight: 500;
@@ -2221,6 +2227,21 @@ ul.timeline img {
         ope serve page end here
 ==================================================*/
 
+
+/* modal start here for blog page */
+
+button.close span {
+  font-size: 40px;
+  outline: none;
+  border: none;
+}
+
+button.close {
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+}
+
 .modal-dialog {
   background: #fff !important;
   max-width: 62% !important;
@@ -2249,12 +2270,12 @@ ul.timeline img {
   margin-top: 24px !important;
 }
 
-.model-title {
+/* .model-title {
   font-style: normal;
   font-weight: 800;
   font-size: 40px;
   color: #3F3F3F;
-}
+} */
 
 .model-dis {
 
@@ -2266,3 +2287,41 @@ ul.timeline img {
   margin-top: 24px;
 }
 
+@media screen and (max-width: 767px){
+  .modal-dialog {
+    max-width: 85% !important;
+}
+
+.modal-box {
+  padding: 34px;
+}
+
+.modal-box .model-title {
+  font-size: 39px;
+}
+}
+
+@media screen and (max-width: 576px) {
+  .modal-box .model-title {
+    font-size: 27px;
+}
+}
+
+@media screen and (max-width: 424px) {
+  .modal-box .model-title {
+    font-size: 22px;
+}
+}
+
+@media screen and (max-width: 374px) {
+  button.close span {
+    font-size: 28px;
+}
+}
+
+@media screen and (max-width: 320px) {
+  .modal-box .model-title {
+    font-size: 19px;
+}
+}
+/* modal end here for blog page */

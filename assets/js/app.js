@@ -49,10 +49,10 @@
     slidesPerView: 3,
     spaceBetween: 30,
     speed: 1000,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
+    // autoplay: {
+    //   delay: 2500,
+    //   disableOnInteraction: false,
+    // },
     breakpoints: {
       1199: {
           slidesPerView: 3,

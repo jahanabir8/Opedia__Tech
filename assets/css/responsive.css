@@ -1017,6 +1017,14 @@ h1, h1 span {
     font-size: 20px;
 }
 
+.information ul li span.first-child {
+    width: 190px;
+}
+
+.information ul li span.last-child {
+    width: calc(100% - 200px);
+}
+
 }
 
 @media screen and (max-width: 423px) {
@@ -1087,8 +1095,16 @@ h1, h1 span {
     font-size: 16px;
 }
 
-.information ul li span:first-child {
-    width: 35%;
+.information ul li span.first-child {
+    width: 166px;
 }
+
+.information ul li span.last-child {
+    width: calc(100% - 166px);
+}
+
+/* .information ul li span:first-child {
+    width: 35%;
+} */
 
 }
