@@ -279,7 +279,7 @@ h1 span{
 }
 
 .web__inner a.service__page::after{
-  width: 28%;
+  width: 27%;
 }
 
 .title a span,
@@ -293,6 +293,8 @@ h1 span{
      .web__inner a.service__page:hover::after{
     color: #fff;
 }
+
+
 .hero__inner .title a:hover::after,
  .service__work__inner .title a:hover::after,
   .hero__inner .title a:hover::after,
@@ -2156,6 +2158,11 @@ ul.timeline img {
   width: 100%;
 }
 
+
+.web__inner a.service__page:hover{
+  color: #fff;
+}
+
 .info .content p {
   font-weight: 400;
   font-size: 16px;
@@ -2325,3 +2332,71 @@ button.close {
 }
 }
 /* modal end here for blog page */
+
+
+
+
+
+
+
+
+
+
+
+
+/* dihan  */
+/* .serviceSwiper{
+  display: flex;
+} */
+
+/* .dihanabirn{
+  position: relative;
+  animation: mymove 5s infinite;
+} */
+
+.dihandiv{
+  width: 100%;
+}
+
+.dihanabir {
+  width: 600px;
+  height: 100px;
+  background: red!important;
+  position: relative;
+  animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+  0%   { left: 0px;}
+  33%  { left: -1120px;}
+  66%  { left: 0px;}
+  /* 75%  { right: 0px;} */
+  100% { right: 0px;}
+}
+
+
+/* .service_swiper_slider{
+  width: 400px;
+} */
+
+
+
+
+
+/* dihan  */
+
+/* mine */
+
+.serviceSwiper{
+  width: 100%;
+}
+
+.swiper-wrapper{
+  width: 600px;
+  height: 100%;
+  /* background: red!important; */
+  position: relative;
+  animation: mymove 10s infinite;
+}
+
+/* mine */

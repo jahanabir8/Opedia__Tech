@@ -6,7 +6,12 @@
       $(".menu").toggleClass("open");
 
     })
-
+    
+    $(window).click(function(e) {
+      if(e.target.className != 'fa-solid fa-bars'){
+        $(".menu").removeClass('open');
+      }
+  });
 
 
     // owl carosel service work section
@@ -45,30 +50,32 @@
     },
   });
 
-  var swiper = new Swiper(".serviceSwiper", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    speed: 1000,
-    // autoplay: {
-    //   delay: 2500,
-    //   disableOnInteraction: false,
-    // },
-    breakpoints: {
-      1199: {
-          slidesPerView: 3,
-          spaceBetween: 20,
-      },
-      575: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      0: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-      },
-  },
+
+  // service section swiper start here
+  // var swiper = new Swiper(".serviceSwiper", {
+  //   slidesPerView: 3,
+  //   spaceBetween: 30,
+  //   speed: 1000,
+  //   // autoplay: {
+  //   //   delay: 2500,
+  //   //   disableOnInteraction: false,
+  //   // },
+  //   breakpoints: {
+  //     1199: {
+  //         slidesPerView: 3,
+  //         spaceBetween: 20,
+  //     },
+  //     575: {
+  //       slidesPerView: 2,
+  //       spaceBetween: 20,
+  //     },
+  //     0: {
+  //       slidesPerView: 1,
+  //       spaceBetween: 20,
+  //     },
+  // },
   
-  });
+  // });
 
 
   
